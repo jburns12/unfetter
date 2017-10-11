@@ -1,7 +1,7 @@
-version: '2'
+version: '2.0'
 services:
   unfetter-discover-gateway:
-    image: nginx:1.11
+    image: nginx:1.13.5-alpine
     container_name: unfetter-discover-gateway
     ports:
      - "443:443"
@@ -11,6 +11,7 @@ services:
     links:
      - unfetter-discover-api-explorer
      - unfetter-discover-api
+     - unfetter-ctf-ingest
      - unfetter-ui
     volumes:
      - ./config/nginx/conf.d.angular:/etc/nginx/conf.d
@@ -52,14 +53,40 @@ services:
      - processor.js
      - --stix
      - /tmp/examples/mitre-attack-cis/mitre-attack.json
-     #- --enhanced-stix-properties
-     #- /tmp/examples/unfetter-db/stix-enhancements.json
-     #- --config
-     #- /tmp/examples/unfetter-db/config.json
+     # - /tmp/examples/unfetter-stix/stix.json
+     # - --enhanced-stix-properties
+     # - /tmp/examples/unfetter-db/stix-enhancements.json
+     # - /tmp/examples/unfetter-db/stix-meta.json
+     # - --config
+     # - /tmp/examples/unfetter-db/config.json
+     # - --add-mitre-data
+     # - "true"
     depends_on:
      - cti-stix-store-repository
     links:
      - cti-stix-store-repository:repository
+
+  unfetter-ctf-ingest:
+    build: ../unfetter-store/unfetter-ctf-ingest
+    container_name: unfetter-ctf-ingest
+    image: unfetter-ctf-ingest
+    volumes:
+     - ../unfetter-store/unfetter-ctf-ingest/test-data:/tmp/test-data
+    environment:
+      - API_PROTOCOL=https
+      - API_HOST=apihost
+      - API_PORT=3000
+      - API_CONTEXT=/
+    ports:
+    - "3001:10010"
+    entrypoint:
+     - npm
+     - start
+    depends_on:
+     - cti-stix-store-repository
+     - unfetter-discover-api
+    links:
+     - unfetter-discover-api:apihost
 
   cti-stix-store-repository:
     image: mongo:3.4.1
@@ -68,6 +95,7 @@ services:
     - "27018:27017"
     volumes:
     - ./data/db:/data/db
+
   unfetter-discover-api-explorer:
     build: ../unfetter-store/unfetter-discover-api
     container_name: unfetter-discover-api-explorer
@@ -98,6 +126,7 @@ services:
     - npm
     - run
     - swaggerdev
+
   unfetter-discover-api:
     build: ../unfetter-store/unfetter-discover-api
     container_name: unfetter-discover-api
@@ -115,6 +144,7 @@ services:
     - ../unfetter-store/unfetter-discover-api/test:/usr/share/unfetter-discover-api/test
     - ../unfetter-store/unfetter-discover-api/api:/usr/share/unfetter-discover-api/api
     environment:
+    - CTF_PARSE_HOST=http://unfetter-ctf-ingest
     - STIX_API_PROTOCOL=http
     - STIX_API_HOST=cti-stix-store
     - STIX_API_PORT=3000
@@ -127,6 +157,7 @@ services:
     - npm
     - run
     - debugdev
+
   unfetter-ui:
     build: ../unfetter-ui
     image: unfetter-ui
