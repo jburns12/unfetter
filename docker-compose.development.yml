@@ -159,7 +159,7 @@ services:
     - MONGO_DBNAME=stix
     - ENV=dev
     # If deployed in a proxy, add the proxy's URL here
-    - HTTPS_PROXY_URL=http://gatekeeper-w.mitre.orgL80
+    - HTTPS_PROXY_URL=
     entrypoint:
     - npm
     - run
