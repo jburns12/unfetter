@@ -122,6 +122,8 @@ services:
     - HTTPS_PROXY_URL=
     # Options: UAC, TEST, DEMO
     - RUN_MODE=DEMO
+    # If deployed in a proxy, add the proxy's URL here
+    - HTTPS_PROXY_URL=
     entrypoint:
     - npm
     - start
