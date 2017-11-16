@@ -1,234 +1,87 @@
 [
     {
-        "_id": "d9732cfc-166e-41a0-af79-d37e7abc69b2",
-        "configKey": "killChains",
+        "_id": "d9732cfc-166e-41a0-af79-d37e7abc69b3",
+        "configKey": "x_mitre_platforms",
         "configValue": [
-            {
-                "name": "mitre-attack",
-                "phase_names": [
-                    "persistence",
-                    "privilege-escalation",
-                    "defense-evasion",
-                    "credential-access",
-                    "discovery",
-                    "lateral-movement",
-                    "execution",
-                    "collection",
-                    "exflitration",
-                    "command-and-control"
-                ],
-                "description": "Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK™) is a threat modeling methodology and suite of models for the various phases of an adversary's lifecycle and platforms that are known to be targeted by cyber threats. ATT&CK models are useful for understanding security risk against known adversary behavior, for planning security improvements, and verifying defenses work as expected.",
-                "url": "https://attack.mitre.org/wiki/Main_Page"
-            },
-            {
-                "name": "ctf",
-                "phase_names": [
-                    "planning",
-                    "research",
-                    "develop-resources",
-                    "acquire-knowledge",
-                    "complete-preparation",
-                    "deployment",
-                    "interaction",
-                    "exploitation",
-                    "delivery",
-                    "control",
-                    "evasion",
-                    "expansion",
-                    "focus",
-                    "persistence",
-                    "enablement",
-                    "access-denial",
-                    "data-extraction",
-                    "data-alteration",
-                    "data-destruction"
-                ],
-                "stage_names": [
-                    "Preparation",
-                    "Engagement",
-                    "Presence",
-                    "Effect"
-                ]
-            }
+            "Linux",
+            "MacOS",
+            "OS X",
+            "Windows 10",
+            "Windows 7",
+            "Windows 8",
+            "Windows 8.1",
+            "Windows Server 2003",
+            "Windows Server 2003 R2",
+            "Windows Server 2008",
+            "Windows Sever 2008 R2",
+            "Windows Server 2012",
+            "Windows Server 2012 R2",
+            "Windows Vista",
+            "Windows XP"
         ],
         "configGroups": [
             "stixConfig"
         ]
     },
     {
-        "_id": "453c02d2-9204-467e-bc59-aa86a99e848f",
-        "configKey": "openVocab",
-        "configValue": {
-            "indicator-label-ov": {
-                "type": "string",
-                "enum": [
-                    "anomalous-activity",
-                    "anonymization",
-                    "benign",
-                    "compromised",
-                    "malicious-activity",
-                    "attribution"
-                ]
-            },
-            "tool-label-ov": {
-                "type": "string",
-                "enum": [
-                    "denial-of-service",
-                    "exploitation",
-                    "information-gathering",
-                    "network-capture",
-                    "credential-exploitation",
-                    "remote-access",
-                    "vulnerability-scanning"
-                ]
-            },
-            "identity-class-ov": {
-                "type": "string",
-                "enum": [
-                    "individual",
-                    "group",
-                    "organization",
-                    "class",
-                    "unknown"
-                ]
-            },
-            "industry-sector-ov": {
-                "type": "string",
-                "enum": [
-                    "agriculture",
-                    "aerospace",
-                    "automotive",
-                    "communications",
-                    "construction",
-                    "defence",
-                    "education",
-                    "energy",
-                    "engineering",
-                    "entertainment",
-                    "financial-services",
-                    "government-national",
-                    "government-regional",
-                    "government-local",
-                    "government-public-services",
-                    "healthcare",
-                    "hospitality-leisure",
-                    "infrastructure",
-                    "insurance",
-                    "manufacturing",
-                    "mining",
-                    "non-profit",
-                    "pharmaceuticals",
-                    "retail",
-                    "technology",
-                    "telecommunications",
-                    "transportation",
-                    "utilities"
-                ]
-            },
-            "attack-resource-level-ov": {
-                "type": "string",
-                "enum": [
-                    "individual",
-                    "club",
-                    "contest",
-                    "team",
-                    "organization",
-                    "government"
-                ]
-            },
-            "attack-motivation-ov": {
-                "type": "string",
-                "enum": [
-                    "accidental",
-                    "coercion",
-                    "dominance",
-                    "ideology",
-                    "notoriety",
-                    "organizational-gain",
-                    "personal-gain",
-                    "personal-satisfaction",
-                    "revenge",
-                    "unpredictable"
-                ]
-            },
-            "malware-label-ov": {
-                "type": "string",
-                "enum": [
-                    "adware",
-                    "backdoor",
-                    "bot",
-                    "ddos",
-                    "dropper",
-                    "exploit-kit",
-                    "keylogger",
-                    "ransomware",
-                    "remote-access-trojan",
-                    "resource-exploitation",
-                    "rogue-security-software",
-                    "rootkit",
-                    "screen-capture",
-                    "spyware",
-                    "trojan",
-                    "virus",
-                    "worm"
-                ]
-            },
-            "report-label-ov": {
-                "type": "string",
-                "enum": [
-                    "threat-report",
-                    "attack-pattern",
-                    "campaign",
-                    "identity",
-                    "indicator",
-                    "malware",
-                    "observed-data",
-                    "threat-actor",
-                    "tool",
-                    "vulnerability"
-                ]
-            },
-            "threat-actor-label-ov": {
-                "type": "string",
-                "enum": [
-                    "activist",
-                    "competitor",
-                    "crime-syndicate",
-                    "criminal",
-                    "hacker",
-                    "insider-accidental",
-                    "insider-disgruntled",
-                    "nation-state",
-                    "sensationalist",
-                    "spy",
-                    "terrorist"
-                ]
-            },
-            "threat-actor-role-ov": {
-                "type": "string",
-                "enum": [
-                    "agent",
-                    "director",
-                    "independent",
-                    "sponsor",
-                    "infrastructure-operator",
-                    "infrastructure-architect",
-                    "malware-author"
-                ]
-            },
-            "threat-actor-sophistication-ov": {
-                "type": "string",
-                "enum": [
-                    "none",
-                    "minimal",
-                    "intermediate",
-                    "advanced",
-                    "strategic",
-                    "expert",
-                    "innovator"
-                ]
-            }
-        },
+        "_id": "453c02d2-9204-467e-bc59-aa86a99e848e",
+        "configKey": "x_mitre_data_sources",
+        "configValue": [
+            "API monitoring",
+            "Anti-virus",
+            "Authentication logs",
+            "BIOS",
+            "Binary file metadata",
+            "DLL monitoring",
+            "Data loss prevention",
+            "Digital Certificate Logs",
+            "EFI",
+            "Environment variable",
+            "File monitoring",
+            "Host network interface",
+            "Kernel drivers",
+            "Loaded DLLs",
+            "MBR",
+            "Malware reverse engineering",
+            "Netflow/Enclave netflow",
+            "Network device logs",
+            "Network protocol analysis",
+            "Packet capture",
+            "PowerShell logs",
+            "Process Monitoring",
+            "Process command-line parameters",
+            "Process use of network",
+            "SSL/TLS inspection",
+            "Sensor health and status",
+            "Services",
+            "System calls",
+            "Third-party application logs",
+            "User interface",
+            "VBR",
+            "WMI Objects",
+            "Windows Error Reporting",
+            "Windows Registry",
+            "Windows event logs"
+        ],
+        "configGroups": [
+            "stixConfig"
+        ]
+    },
+    {
+        "_id": "87dbc24a-6773-92a3-9b3d-9dba3ef6ee7a",
+        "configKey": "tactics",
+        "configValue": [
+            "collection",
+            "command-and-control",
+            "credential-access",
+            "defense-evasion",
+            "discovery",
+            "execution",
+            "exfiltration",
+            "lateral-movement",
+            "persistence",
+            "privilege-escalation"
+        ],
         "configGroups": [
             "stixConfig"
         ]
