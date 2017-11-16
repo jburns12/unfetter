@@ -50,6 +50,7 @@
             "PowerShell logs",
             "Process Monitoring",
             "Process command-line parameters",
+            "Process monitoring",
             "Process use of network",
             "SSL/TLS inspection",
             "Sensor health and status",
