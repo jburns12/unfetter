@@ -48,6 +48,8 @@ services:
     #  - ../unfetter-store/unfetter-discover-processor:/usr/src/app
     environment:
      - MONGO_HOST=repository
+     # If deployed in a proxy, add the proxy's URL here
+     - HTTPS_PROXY_URL=
     entrypoint:
      - node
      - processor.js
