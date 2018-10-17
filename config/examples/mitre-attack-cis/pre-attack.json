@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d41fab9-7920-4362-b57f-5c27cd09f91a",
+    "id": "bundle--784c4dd4-63ff-40e9-8211-652c3175520e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -43,7 +43,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This activity is indistinguishable from legitimate business uses and easy to obtain.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Large quantities of data exists on people, organizations and technologies whether divulged wittingly or collected as part of doing business on the Internet (unbeknownst to the user/company).  Search engine and database indexing companies continuously mine this information and make it available to anyone who queries for it.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1054"
         },
         {
             "type": "attack-pattern",
@@ -77,7 +78,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This activity is indistinguishable from legitimate business uses and easy to obtain.  Direct access to the selected target is not required for the adversary to conduct this technique.  There is a limited ability to detect this by looking at referrer fields on local web site accesses (e.g., a person who has accessed your web servers from [https://www.shodan.io Shodan]).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Possible to gather technical intelligence about Internet accessible systems/devices by obtaining various commercial data sets and supporting business intelligence tools for ease of analysis.  Commercial data set examples include advertising content delivery networks, Internet mapping/traffic collections, system fingerprinting data sets, device fingerprinting data sets, etc.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1024"
         },
         {
             "type": "attack-pattern",
@@ -111,7 +113,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This activity is indistinguishable from legitimate business uses and easy to obtain.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Possible to gather digital intelligence about a person is easily aided by social networking sites, free/for fee people search engines, and publicly available information (e.g., county databases on tickets/DUIs).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1043"
         },
         {
             "type": "attack-pattern",
@@ -145,7 +148,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "3rd party services highly leveraged by legitimate services, hard to distinguish from background noise.  While an adversary can use their own infrastructure, most know this is a sure- re way to get caught. To add degrees of separation, they can buy or rent from another adversary or accomplice.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Wide range of 3rd party services for hosting, rotating, or moving C2, static data, exploits, exfiltration, etc.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1084"
         },
         {
             "type": "attack-pattern",
@@ -179,7 +183,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Hard to differentiate from standard business operations.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Wide variety of cloud/VPS/hosting/compute/storage solutions available for adversary to acquire freely or at a low cost.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1106"
         },
         {
             "type": "attack-pattern",
@@ -217,7 +222,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility over account creation for 3rd party software services.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "3rd party services like these listed are freely available.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1085"
         },
         {
             "type": "attack-pattern",
@@ -251,7 +257,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility over account creation for 3rd party software services.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "3rd party services like these listed are freely available.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1107"
         },
         {
             "type": "attack-pattern",
@@ -285,7 +292,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not know what certificates an adversary acquires from a 3rd party. Defender will not know prior to public disclosure if a 3rd party has had their certificate compromised.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "It is trivial to purchase code signing certificates within an organization; many exist and are available at reasonable cost. It is complex to factor or steal 3rd party code signing certificates for use in malicious mechanisms",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1087"
         },
         {
             "type": "attack-pattern",
@@ -319,7 +327,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not know what certificates an adversary acquires from a 3rd party. Defender will not know prior to public disclosure if a 3rd party has had their certificate compromised.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "It is trivial to purchase code signing certificates within an organization; many exist and are available at reasonable cost. It is complex to factor or steal 3rd party code signing certificates for use in malicious mechanisms",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1109"
         },
         {
             "type": "attack-pattern",
@@ -357,7 +366,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Information readily available through searches",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1052"
         },
         {
             "type": "attack-pattern",
@@ -395,7 +405,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyze technical scanning results to identify weaknesses in the configuration or architecture.  Many of the common tools highlight these weakness automatically (e.g., software security scanning tools or published vulnerabilities about commonly used libraries).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1070"
         },
         {
             "type": "attack-pattern",
@@ -429,7 +440,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many of the common tools highlight these weakness automatically.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1065"
         },
         {
             "type": "attack-pattern",
@@ -463,7 +475,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Social engineering and other attempts to learn about business practices and processes would not immediately be associated with an impending cyber event.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "To get any kind of fidelity into business processes would require insider access.  Basic processes could be mapped, but understanding where in the organization these processes take place and who to target during any given phase of the process would generally be difficult.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1078"
         },
         {
             "type": "attack-pattern",
@@ -509,7 +522,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many of the common tools highlight these weaknesses automatically.  Adversary can \"dry run\" against the target using known exploits or burner devices to determine key identifiers of software, hardware, and services.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1064"
         },
         {
             "type": "attack-pattern",
@@ -543,7 +557,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyze network traffic to determine security filtering policies, packets dropped, etc.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1071"
         },
         {
             "type": "attack-pattern",
@@ -577,7 +592,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No access to who is consuming the job postings to know what is being observed.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Job postings have to be made public for contractors and many times have the name of the organization being supported.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1074"
         },
         {
             "type": "attack-pattern",
@@ -611,7 +627,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Job postings and hiring requisitions have to be made public for contractors and many times have the name of the organization being supported.  In addition, they outline the skills needed to do a particular job, which can provide insight into the technical structure and organization of a target.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1066"
         },
         {
             "type": "attack-pattern",
@@ -645,7 +662,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This can be done offline after the data has been collected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyze strengths and weaknesses of the target for potential areas of where to focus compromise efforts.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1077"
         },
         {
             "type": "attack-pattern",
@@ -683,7 +701,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Much of this analysis can be done using the target's open source website, which is purposely designed to be informational and may not have extensive visitor tracking capabilities.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Analyzing business relationships from information gathering may provide insight into outsourced capabilities.  In certain industries, outsourced capabilities or close business partnerships may be advertised on corporate websites.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1080"
         },
         {
             "type": "attack-pattern",
@@ -717,7 +736,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public sources are external to the defender's organization.  Some social media sites have an option to show you when users are looking at your profile, but an adversary can evade this tracking depending on how they conduct the searches.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Social and business relationship information for an individual can be found by examining their social media contacts (e.g., [https://www.facebook.com Facebook] and [https://www.linkedin.com LinkedIn]).  Social media also provides insight into the target's affiliations with groups and organizations.  Finally, certification information can explain their technical associations and professional associations.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1072"
         },
         {
             "type": "attack-pattern",
@@ -755,7 +775,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Depends on service.  Some are easy to detect, but are hard to trace (e.g., [https://torproject.org TOR]).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easy access to anonymizers, quasi-anonymous services like remailers, [https://torproject.org TOR], relays, burner phones, etc.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1083"
         },
         {
             "type": "attack-pattern",
@@ -789,7 +810,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1006"
         },
         {
             "type": "attack-pattern",
@@ -835,7 +857,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1013"
         },
         {
             "type": "attack-pattern",
@@ -869,7 +892,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1001"
         },
         {
             "type": "attack-pattern",
@@ -907,7 +931,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Most of this activity would target partners and business processes.  Partners would not report.  Difficult to tie this activity to a cyber attack.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Mapping joint infrastructure and business processes is difficult without insider knowledge or SIGINT capability.  While a merger creates and opportunity to exploit potentially cumbersome or sloppy business processes, advance notice of a merger is difficult; merger information is typically close-hold until the deal is done.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1076"
         },
         {
             "type": "attack-pattern",
@@ -945,7 +970,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Physical security is often unaware of implications of physical access to network.  However, some organizations have thorough physical security measures that would log and report attempted incursions, perimeter breaches, unusual RF at a site, etc.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Social engineering and OSINT are still generally successful.  Physical locations of offices/sites are easily determined.  Monitoring for other sites of interest, such as backup storage vendors, is also easy to accomplish.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1079"
         },
         {
             "type": "attack-pattern",
@@ -983,7 +1009,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender does not have access to information stored outside of defenders scope or visibility (e.g., log data for Facebook is not easily accessible).  Defender has very infrequent visibility into an adversary's more detailed TTPs for developing people targets.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Information is out in the open for items that are available - part of this is ease of use for consumers to support the expected networking use case.  OSINT can provide many avenues to gather intel which contain weaknesses.  Developing and refining the methodology to exploit weak human targets has been done for years (e.g., spies).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1073"
         },
         {
             "type": "attack-pattern",
@@ -1021,7 +1048,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "3rd parties would most likely not report network scans to their partners.  Target network would not know that their 3rd party partners were being used as a vector.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "The difficult part is enumerating all 3rd parties.  Finding major partners would not be difficult.  Significantly easier with insider knowledge.  Vulnerability scanning the 3rd party networks is trivial.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1075"
         },
         {
             "type": "attack-pattern",
@@ -1059,7 +1087,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1015"
         },
         {
             "type": "attack-pattern",
@@ -1093,7 +1122,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1005"
         },
         {
             "type": "attack-pattern",
@@ -1132,7 +1162,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This is possible with diligent monitoring of login anomalies, expected user behavior/location.  If the adversary uses legitimate credentials, it may go undetected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Attempt to use default vendor credentials, brute force credentials, or previously obtained legitimate credentials.  This is increasingly difficult to obtain access when two-factor authentication mechanisms are employed.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1158"
         },
         {
             "type": "attack-pattern",
@@ -1167,7 +1198,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Some environments have anti-spearphishing mechanisms to detect or block the link before it reaches the user.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Users unwittingly click on spearphishing links frequently, despite training designed to educate about the perils of spearphishing.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1163"
         },
         {
             "type": "attack-pattern",
@@ -1202,7 +1234,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Environments without extensive endpoint sensing capabilities do not typically collect this level of detailed information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Autoruns with USB keys and CDs traditionally were always on (e.g., [http://windows.microsoft.com Windows] 7 is now an exception with a new policy of limiting the always on nature of Autoruns), ensuring and automated system completes a requested action.  Specialized use cases exist where automated systems are specifically designed against automatically performing certain actions (e.g., USB/CD insertion and automatically running is disabled in certain environments).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1161"
         },
         {
             "type": "attack-pattern",
@@ -1236,7 +1269,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "It is detectable once deployed to the public Internet, used for adversarial purposes, discovered, and reported to defenders.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "It is easy to create and burn infrastructure. Otherwise, blacklisting would be more successful for defenders.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1124"
         },
         {
             "type": "attack-pattern",
@@ -1274,7 +1308,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Several exploit repositories and tool suites exist for re-use and tailoring.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1126"
         },
         {
             "type": "attack-pattern",
@@ -1316,7 +1351,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless there is some threat intelligence reporting, these users are hard to differentiate.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Performing activities like typical users, but with specific intent in mind.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1118"
         },
         {
             "type": "attack-pattern",
@@ -1350,7 +1386,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This is by design captured in public registration logs.  Various tools and services exist to track/query/monitor domain name registration information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS TLDs and registrars.  Adversary may choose domains that are similar to legitimate domains (aka \"domain typosquatting\" or homoglyphs).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1105"
         },
         {
             "type": "attack-pattern",
@@ -1384,7 +1421,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "C2 over commonly used and permitted protocols provides the necessary cover and access.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1129"
         },
         {
             "type": "attack-pattern",
@@ -1418,7 +1456,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Possible to detect compromised credentials if alerting from a service provider is enabled and acted upon by the individual.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "The difficulty of obtaining useful developer credentials may vary.  Well-organized, professional app developers whose credentials or signing keys would be the most useful to an adversary because of the large install bases of their apps, would likely strongly protect their credentials and signing keys.  Less-organized app developers may not protect their credentials and signing keys as strongly, but the credentials and signing keys would also be less useful to an adversary.  These less-organized app developers may reuse passwords across sites, fail to turn on multi-factor authentication features when available, or store signing keys in unprotected locations.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1168"
         },
         {
             "type": "attack-pattern",
@@ -1456,7 +1495,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Possible to detect compromised credentials if alerting from a service provider is enabled and acted upon by the individual.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "It is relatively easy and low cost to purchase compromised credentials.  Mining social media sites offers open source information about a particular target.  Most users tend to reuse passwords across sites and are not paranoid enough to check and see if spoofed sites from their persona exist across current social media.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1120"
         },
         {
             "type": "attack-pattern",
@@ -1490,7 +1530,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "High level of entropy in communications.  High volume of communications makes it extremely hard for a defender to distinguish between legitimate and adversary communications.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to decipher or to make the communication less conspicuous.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1098"
         },
         {
             "type": "attack-pattern",
@@ -1528,7 +1569,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility on 3rd party sites unless target is successfully enticed to visit one.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly used technique currently (e.g., [https://www.wordpress.com WordPress] sites) as precursor activity to launching attack against intended target (e.g., acquiring botnet or layers of proxies for reducing attribution possibilities).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1089"
         },
         {
             "type": "attack-pattern",
@@ -1567,7 +1609,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility on 3rd party sites unless target is successfully enticed to visit one.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly used technique currently (e.g., [https://www.wordpress.com WordPress] sites) as precursor activity to launching attack against intended target (e.g., acquiring botnet or layers of proxies for reducing attribution possibilities).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1111"
         },
         {
             "type": "attack-pattern",
@@ -1601,7 +1644,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The compromise of unknown vulnerabilities would provide little attack and warning against a defender, rendering it highly challenging to detect.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Finding, attacking, and compromising a 3rd party or closed vulnerability entity is challenging, because those containing the vulnerabilities should be very aware of attacks on their environments have a heightened awareness.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1131"
         },
         {
             "type": "attack-pattern",
@@ -1640,7 +1684,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Most DMZs are monitored but are also designed so that if they are compromised, the damage/risk is limited.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "DMZ environments are specifically designed to be isolated because one assumes they will ultimately be compromised by the adversary.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1165"
         },
         {
             "type": "attack-pattern",
@@ -1674,7 +1719,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This technique is an expected and voluminous activity when on the Internet.  Active scanning techniques/tools typically generate benign traffic that does not require further investigation by a defender since there is no actionable defense to execute.  The high volume of this activity makes it burdensome for any defender to chase and therefore often ignored.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Various available tools and data sources for scouting and detecting address, routing, version numbers, patch levels, protocols/services running, etc.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1031"
         },
         {
             "type": "attack-pattern",
@@ -1712,7 +1758,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1003"
         },
         {
             "type": "attack-pattern",
@@ -1750,7 +1797,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Generates no network traffic that would enable detection.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easy to do but it requires a vantage point conducive to accessing this data.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1030"
         },
         {
             "type": "attack-pattern",
@@ -1788,7 +1836,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No technical means to detect an adversary collecting information about a target.  Any detection would be based upon strong OPSEC policy implementation.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very effective technique for the adversary that does not require any formal training and relies upon finding just one person who exhibits poor judgement.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1056"
         },
         {
             "type": "attack-pattern",
@@ -1826,7 +1875,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No technical means to detect an adversary collecting technical information about a target.  Any detection would be based upon strong OPSEC policy implementation.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very effective technique for the adversary that does not require any formal training and relies upon finding just one person who exhibits poor judgement.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1026"
         },
         {
             "type": "attack-pattern",
@@ -1864,7 +1914,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No technical means to detect an adversary collecting information about a target.  Any detection would be based upon strong OPSEC policy implementation.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very effective technique for the adversary that does not require any formal training and relies upon finding just one person who exhibits poor judgement.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1045"
         },
         {
             "type": "attack-pattern",
@@ -1903,7 +1954,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Assuming an average company does not train its employees to be aware of social engineering techniques, it is not possible to detect the adversary's use unless a highly motivated or paranoid employee informs security.  This assessment flips to a 1 in cases of environments where security trains employees to be vigilant or in specialized industries where competitive intelligence and business intelligence train employees to be highly aware.  Most likely more complex for an adversary to detect as methods move to physical or non traditionally monitored mechanisms (such as phone calls outside of call centers).  Furthermore, the content of such an interaction may be lost due to lack of collection.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Assuming an average adversary whose focus is social engineering, it is not difficult for an adversary.  Assuming a HUMINT operation and specialized circumstances, the adversary difficulty becomes 1.   Social engineering can be easily done remotely via email or phone.  In contrast, HUMINT operations typically would require physical contact at some point in the process, increasing the difficulty.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1153"
         },
         {
             "type": "attack-pattern",
@@ -1942,7 +1994,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Current commercial tools and sensitive analytics can be used to detect communications to command and control servers or data exfiltration.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Certainty of the confirmation of compromise is not guaranteed unless the adversary sees communication to a command and control server, exfiltration of data, or an intended effect occur.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1160"
         },
         {
             "type": "attack-pattern",
@@ -1976,7 +2029,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Infrastructure is (typically) outside of control/visibility of defender and as such as tools are staged for specific campaigns, it will not be obvious to those being attacked.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "The adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], commercial storage solutions).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1116"
         },
         {
             "type": "attack-pattern",
@@ -2010,7 +2064,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "It is likely that an adversary will create and develop payloads on inaccessible or unknown networks for OPSEC reasons.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Specialized tools exist for research, development, and testing of virus/malware payloads.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1122"
         },
         {
             "type": "attack-pattern",
@@ -2048,7 +2103,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1009"
         },
         {
             "type": "attack-pattern",
@@ -2082,7 +2138,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Several exploit repositories and tool suites exist for re-use and tailoring.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1132"
         },
         {
             "type": "attack-pattern",
@@ -2124,7 +2181,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1008"
         },
         {
             "type": "attack-pattern",
@@ -2163,7 +2221,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Fidelity of networking monitoring must be able to detect when traffic is diverted to non-normal sources at a site level.  It is possible to identify some methods of pharming, but detection capabilities are limited and not commonly implemented.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Although it can be difficult to spoof/redirect content to a hostile service via DNS poisoning or MiTM attacks, current malware such as Zeus is able to successfully pharm credentials and end users are not well-versed in checking for certificate mismatches.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1151"
         },
         {
             "type": "attack-pattern",
@@ -2206,7 +2265,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Tracking multiple DNS infrastructures will likely require multiple tools/services, more advanced analytics, and mature detection/response capabilities in order to be effective.   Few defenders demonstrate the mature processes to immediately detect and mitigate against the use of this technique.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary poisons DNS entry to redirect traffic designated for one site to route to an adversary controlled resource.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1159"
         },
         {
             "type": "attack-pattern",
@@ -2248,7 +2308,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "There are not currently available tools that provide the ability to conduct this calculation to detect this type of activity.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This technique assists the adversary in bypassing egress filtering designed to prevent unauthorized communication.  It has been used by APT12, but not otherwise widely reported.  Some botnets are hardcoded to be able to use this technique.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1101"
         },
         {
             "type": "attack-pattern",
@@ -2290,7 +2351,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless defender is dissecting protocols or performing network signature analysis on any protocol deviations/patterns, this technique is largely undetected.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "This technique requires a more advanced protocol understanding and testing to insert covert communication into legitimate protocol fields.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1097"
         },
         {
             "type": "attack-pattern",
@@ -2325,7 +2387,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Although some commercial technologies are being advertised which claim to detect malvertising, it largely spreads unknowingly because it doesn't always require an action by a user.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can deploy exploits via malvertising using multiple mechanisms.  Such mechanisms include an image ad that is infected, redirection, or using social engineering to get the end user to install the malicious software themselves.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1157"
         },
         {
             "type": "attack-pattern",
@@ -2363,7 +2426,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1007"
         },
         {
             "type": "attack-pattern",
@@ -2405,7 +2469,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary searches publicly available sources and may find this information on the 3rd party web site listing new customers/clients.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Press releases may reveal this information particularly when it is an expected cost savings or improvement for scalability/reliability.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1061"
         },
         {
             "type": "attack-pattern",
@@ -2443,7 +2508,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The data is passive in nature or not controlled by the defender, so it is hard to identify when an adversary is getting or analyzing the data.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Based on what the 3rd party infrastructure is, there are many tell tail signs which indicate it is hosted by a 3rd party, such as ASN data, MX or CNAME pointers or IP addresses",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1037"
         },
         {
             "type": "attack-pattern",
@@ -2493,7 +2559,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1022"
         },
         {
             "type": "attack-pattern",
@@ -2527,7 +2594,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No technical means to detect an adversary collecting information about a target.  Any detection would be based upon strong OPSEC policy implementation.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an adversary to undergo a research process to learn the internal workings of an organization.  An adversary can do this by social engineering individuals in the company by claiming to need to find information for the help desk, or through social engineering of former employees or business partners.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1062"
         },
         {
             "type": "attack-pattern",
@@ -2561,7 +2629,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public or easily obtainable information by design.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "AS and IANA data are easily available, existing research tools.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1027"
         },
         {
             "type": "attack-pattern",
@@ -2599,7 +2668,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This is not easily performed remotely and therefore not a detectable event.  If the adversary can sniff traffic to deduce trust relations, this is a passive activity and not detectable.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Determining trust relationships once internal to a network is trivial.  Simple tools like trace route can show evidence of firewalls or VPNs and then hosts on the either side of the firewall indicating a different trusted network. Active Directory command line tools can also identify separate trusted networks.\n\nIf completely external to a network, sniffing traffic (if possible) could also reveal the communications protocols that could be guessed to be a trusted network connection (e.g., IPsec, maybe SSL, etc.) though this is error-prone. \n\nWith no other access, this is hard for an adversary to do completely from a remote vantage point.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1036"
         },
         {
             "type": "attack-pattern",
@@ -2633,7 +2703,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "No easy way for defenders to detect when an adversary collects this information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Depending upon the target device, there are variable ways for an adversary to determine the firmware version.  In some cases, this information can be derived from easily obtained information.  For example, in [http://www.cisco.com Cisco] devices, the firmware version is easily determined once the device model and OS version is known since it is included in the release notes.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1035"
         },
         {
             "type": "attack-pattern",
@@ -2679,7 +2750,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1020"
         },
         {
             "type": "attack-pattern",
@@ -2725,7 +2797,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1019"
         },
         {
             "type": "attack-pattern",
@@ -2759,7 +2832,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary searches publicly available sources that list physical locations that cannot be monitored by a defender or are not necessarily monitored (e.g., all IP addresses touching their public web space listing physical locations).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Most corporations now list their locations on public facing websites.  Some challenge still exists to find covert or sensitive locations.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1059"
         },
         {
             "type": "attack-pattern",
@@ -2805,7 +2879,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1021"
         },
         {
             "type": "attack-pattern",
@@ -2851,7 +2926,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  May change for special use cases or adversary and defender overlays.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This is the normal adversary targeting cycle where they utilize our poor OPSEC practices to their advantage.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1018"
         },
         {
             "type": "attack-pattern",
@@ -2885,7 +2961,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1004"
         },
         {
             "type": "attack-pattern",
@@ -2927,7 +3004,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless there is some threat intelligence reporting, these users are hard to differentiate.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "The only difference between an adversary conducting this technique and a typical user, is the adversary's intent - to target an individual for compromise.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1119"
         },
         {
             "type": "attack-pattern",
@@ -2962,7 +3040,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many public sources exist for this information.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1127"
         },
         {
             "type": "attack-pattern",
@@ -2996,7 +3075,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Easily determined and not intended to be protected information. Publicly collected and shared repositories of email addresses exist.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Scraping of known email addresses from the target will likely reveal the target standard for address/username format.  This information is easily discoverable.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1032"
         },
         {
             "type": "attack-pattern",
@@ -3039,7 +3119,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "From a technical perspective, detection of an adversary disseminating removable media is not possible as there is no technical element involved until the compromise phase.  Most facilities generally do not perform extensive physical security patrols, which would be necessary in order to promptly identify an adversary deploying removable media to be used in an attack.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly executed technique by penetration testers to gain access to networks via end users who are innately trusting of newly found or available technology.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1156"
         },
         {
             "type": "attack-pattern",
@@ -3077,7 +3158,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Developers could check a hash or signature of their development tools to ensure that they match expected values (e.g., Apple provides instructions of how to do so for its Xcode developer tool), but developers may not always do so.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "The adversary would need to either replace the tools provided at the official download location or influence developers to download the tools from an adversary-controlled third-party download location. Desktop operating systems (e.g., Windows, macOS) are increasingly encouraging use of vendor-provided official app stores to distribute software, which utilize code signing and increase the difficulty of replacing development tools with malicious versions.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1171"
         },
         {
             "type": "attack-pattern",
@@ -3115,7 +3197,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "It is possible to detect the use of DGAs; however, defenders have largely not been successful at mitigating the domains because they are generally registered less than an hour before they are used and disposed of within 24 hours.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This technique does not require a significant amount of sophistication while still being highly effective.  It was popularized by the Conficker worms but is prevalent in crimeware such as Murofet and BankPatch.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1100"
         },
         {
             "type": "attack-pattern",
@@ -3149,7 +3232,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Generally not easily detectable unless domain registrar provides alerting on any updates.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires adversary to gain access to an email account for person listed as the domain registrar/POC.  The adversary can then claim that they forgot their password in order to make changes to the domain registration.  Other possibilities include social engineering a domain registration help desk to gain access to an account or take advantage of renewal process gaps.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1103"
         },
         {
             "type": "attack-pattern",
@@ -3183,7 +3267,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Strong physical security and monitoring will detect this behavior if performed on premises.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Not difficult if waste is placed in an unsecured or minimally secured area before collection.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1063"
         },
         {
             "type": "attack-pattern",
@@ -3217,7 +3302,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not know at first use what is valid or hostile traffic without more context. It is possible, however, for defenders to see if the PTR record for an address is hosted by a known DDNS provider. There is potential to assign some level of risk based on this.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Flexible and re-configurable command and control servers, along with deniable ownership and reduced cost of ownership.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1088"
         },
         {
             "type": "attack-pattern",
@@ -3251,7 +3337,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not know at first use what is valid or hostile traffic without more context.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "It is relatively easy to subscribe to dynamic DNS providers or find ways to get different IP addresses from a cloud provider.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1110"
         },
         {
             "type": "attack-pattern",
@@ -3289,7 +3376,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Typical information collected as part of accessing web sites (e.g., operating system, browser version, basic configurations).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Basic web scripting capability to collect information of interest on users of interest.  Requires a compromised web site and the users of interest to navigate there.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1039"
         },
         {
             "type": "attack-pattern",
@@ -3331,7 +3419,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Impossible to differentiate between an adversary and a normal user when accessing a site to determine the languages/technologies used.  If active scanning tools are employed, then the defender has the ability to detect.  However, this is typically not acted upon due to the large volume of this type of traffic and it will likely not prompt the defender to take any actionable defense.  Defender review of access logs may provide some insight based on trends or patterns.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Basic interaction with the site provides insight into the programming languages/technologies used for a given web site.  Additionally many of the active scanning tools will also provide some insight into this information.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1038"
         },
         {
             "type": "attack-pattern",
@@ -3366,7 +3455,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "If the application and network are designed well, the defender should be able to utilize logging and application logic to catch and deflect SQL injection attacks.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Launching a SQL injection attack is not overly complex and a commonly used technique.  This technique, however, requires finding a vulnerable application.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1154"
         },
         {
             "type": "attack-pattern",
@@ -3412,7 +3502,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "In general, detecting usage of fast flux DNS is difficult due to web traffic load balancing that services client requests quickly.  In single flux cases only IP addresses change for static domain names.  In double flux cases, nothing is static.  Defenders such as IPS, domain registrars, and service providers are likely in the best position for detection.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Fast flux is generally simple for an adversary to set up and offers several advantages.  Such advantages include limited audit trails for defenders to find, ease of operation for an adversary to maintain, and support for main nodes.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1102"
         },
         {
             "type": "attack-pattern",
@@ -3446,7 +3537,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Users have the ability to detect and report non-authenticated individuals requesting to follow, friend or connect to a target.  However the rigidity in validating the users is not typically followed by standard users.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Connecting with \"friends\" is a fundamental requirement for social media - without it, social media is worthless.  An adversary can easily create a profile and request targets to validate the requests.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1141"
         },
         {
             "type": "attack-pattern",
@@ -3484,7 +3576,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless there is some threat intelligence reporting, these users are hard to differentiate.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "The nature of social media is such that the adversary naturally connects to a target of interest without suspicion, given the purpose of the platform is to promote connections between individuals.  Performing activities like typical users, but with specific intent in mind.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1121"
         },
         {
             "type": "attack-pattern",
@@ -3518,7 +3611,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1011"
         },
         {
             "type": "attack-pattern",
@@ -3556,7 +3650,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The number of elements and components in a supply chain of HW or SW is vast and detecting an implant is complex for SW, but more complex for HW.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Access to the supply chain by an adversary can be a challenging endeavor, depending on what element is attempting to be subverted.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1142"
         },
         {
             "type": "attack-pattern",
@@ -3590,7 +3685,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Techniques are difficult to detect and might occur in uncommon use-cases (e.g., patching, anti-malware, anti-exploitation software).",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Some of the host-based hiding techniques require advanced knowledge combined with an understanding and awareness of the target's environment (e.g., exploiting weaknesses in  file formats, parsers and detection capabilities).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1091"
         },
         {
             "type": "attack-pattern",
@@ -3629,7 +3725,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Non-hypersensing environments do not typically collect this level of detailed information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Ill-informed users insert devices into their network that they randomly find, despite training educating them why this is not a wise idea.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1162"
         },
         {
             "type": "attack-pattern",
@@ -3671,7 +3768,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1010"
         },
         {
             "type": "attack-pattern",
@@ -3709,7 +3807,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Current or previous employees may divulge information on the Internet.  If insiders are used, the defender may have policies or tools in place to detect loss of this data or knowledge.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "In some cases, this requires some insider knowledge or specialized access to learn when critical operations occur in a corporation.  For publicly traded US corporations, there is a lot of open source information about their financial reporting obligations (per SEC).  Companies announce their annual shareholder meeting and their quarter phone calls with investors.  Information such as this can help the adversary to glean certain aspects of the business processes and/or rhythm.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1057"
         },
         {
             "type": "attack-pattern",
@@ -3747,7 +3846,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.  Much of this information is widely known and difficult to obscure.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Made easier by today's current social media.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1049"
         },
         {
             "type": "attack-pattern",
@@ -3781,7 +3881,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Exception to the rule is if the adversary tips off the target that others have been asking about the relationship with them.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an intensive process.  In some industries, business relationships may be public in order to generate business, but this is not the case for all industries and all relationships.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1060"
         },
         {
             "type": "attack-pattern",
@@ -3819,7 +3920,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1002"
         },
         {
             "type": "attack-pattern",
@@ -3853,7 +3955,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an adversary to undergo an intensive research process.  It is resource intensive or requires special data access.  May be easier for certain specialty use cases.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1047"
         },
         {
             "type": "attack-pattern",
@@ -3887,7 +3990,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Impossible to differentiate between an adversary and a normal user when accessing open/public information.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Publicly posted information by design.  Providing too much detail in the job posting could aid the adversary in learning more about the target's environment and possible technical weaknesses/deficiencies.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1025"
         },
         {
             "type": "attack-pattern",
@@ -3921,7 +4025,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very public by design.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1044"
         },
         {
             "type": "attack-pattern",
@@ -3959,7 +4064,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very public by design.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1055"
         },
         {
             "type": "attack-pattern",
@@ -3997,7 +4103,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Common defenses protecting against poor OPSEC practices are traditionally more policy-based in nature rather than technical.  Policy-based mitigations are generally more difficult to enforce and track violations, making it more difficult that this technique can be detected by common defenses.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Specialty cases enable an adversary to use key words in order to search social media and identify personnel with poor OPSEC practices who may have access to specialized information which would make them a target of interest.  In addition, the open nature of social media leads to a tendency among individuals to overshare, encouraging poor OPSEC and increasing the ease by which an adversary can identify interesting targets.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1046"
         },
         {
             "type": "attack-pattern",
@@ -4031,7 +4138,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The layers of data required and potential gaps of information to map a specific person to an authority or privilege on a network requires access to resources that may not tip off a defender.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an adversary to undergo an intensive research process.  It is resource intensive or requires special data access.  May be easier for certain specialty use cases.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1048"
         },
         {
             "type": "attack-pattern",
@@ -4065,7 +4173,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Recruitment is, by its nature, either clandestine or off the record.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Like target organizations, adversary organizations are competing to identify and hire top technical talent.  Training less technical staff is also a viable option.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1125"
         },
         {
             "type": "attack-pattern",
@@ -4103,7 +4212,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Technically, the defender has the ability to detect.  However, this is typically not performed as this type of traffic would likely not prompt the defender to take any actionable defense.  In addition, this would require the defender to closely review their access logs for any suspicious activity (if the activity is even logged).",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "The adversary will have some insight into defenses based on dropped traffic or filtered responses.  It is more difficult to pinpoint which defenses are implemented (e.g., [https://www.fireeye.com FireEye] WMPS, [https://www.hpe.com Hewlett Packard Enterprise] Tipping Point IPS).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1040"
         },
         {
             "type": "attack-pattern",
@@ -4137,7 +4247,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "This type of information is useful to understand the individual and their ability to be blackmailed.  Searching public records is easy and most information can be purchased for a low cost if the adversary really wants it.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1051"
         },
         {
             "type": "attack-pattern",
@@ -4175,7 +4286,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an intensive process.  May be easier in certain industries where there are a limited number of suppliers (e.g., SCADA).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1053"
         },
         {
             "type": "attack-pattern",
@@ -4217,7 +4329,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Difficult, if not impossible to detect, because the adversary may collect this information from external sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Supply chain diversity of sourcing increases adversary difficulty with accurate mapping.  Industry practice has moved towards agile sourcing.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1023"
         },
         {
             "type": "attack-pattern",
@@ -4255,7 +4368,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires an intensive process to obtain the full picture.  It is possible to obtain basic information/some aspects via OSINT.  May be easier in certain industries where there are a limited number of suppliers (e.g., SCADA).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1042"
         },
         {
             "type": "attack-pattern",
@@ -4289,7 +4403,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Physical observations, OSINT for remote access instructions, and other techniques are not detectable.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Determine if users work offsite, connect remotely, or other possibly less restricted/secured access techniques.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1041"
         },
         {
             "type": "attack-pattern",
@@ -4331,7 +4446,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Open source software has great appeal mostly due to the time savings and that it is free.  However, using this code without assessing it's security is akin to blindly executing third party software.  Companies often do not dedicate the time to appropriately detect and scan for vulnerabilities. The mainstream mobile application stores scan applications for some known vulnerabilities. For example, Google's Android Application Security Improvement Program identifies and alerts developers to vulnerabilities present in their applications from use of the Vungle, Apache Cordova, WebView SSL, GnuTLS, and Vitamio third-party libraries. However, these scans are not likely to cover all vulnerable libraries, developers may not always act on the results, and the results may not be made available to impacted end users of the applications.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Developers commonly use open source libraries such that where an adversary can easily discover known vulnerabilities and create exploits.  It is also generally easy to decompile arbitrary mobile applications to determine what libraries they use, and similarly use this information to correlate against known CVEs and exploit packages.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1166"
         },
         {
             "type": "attack-pattern",
@@ -4365,7 +4481,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Active service detection may trigger an alert.  Passive service enumeration is not detected.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary can passively detect services (e.g., [https://www.cloudflare.com/ CloudFlare] routing) or actively detect services (e.g., by purposefully tripping security defenses)",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1033"
         },
         {
             "type": "attack-pattern",
@@ -4399,7 +4516,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will not have visibility on 3rd party sites unless target is successfully enticed to visit one.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Skills are common to majority of computer scientists and \"hackers\".  Can be easily obtained through contracting if not organic to adversary's organization.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1113"
         },
         {
             "type": "attack-pattern",
@@ -4434,7 +4552,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "While possible to detect, it requires a broader vantage point than is typical that provides increased insight and conducts extensive data analysis and correlation between events.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Conducting technique requires either nation-state level capabilities or large amounts of financing to coordinate multiple 3rd party resources to gain desired insight.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1152"
         },
         {
             "type": "attack-pattern",
@@ -4472,7 +4591,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Network mapping techniques/tools typically generate benign traffic that does not require further investigation by a defender since there is no actionable defense to execute.  Defender review of access logs may provide some insight based on trends or patterns.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Various available tools and data sources for scouting and detecting network topologies.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1029"
         },
         {
             "type": "attack-pattern",
@@ -4506,7 +4626,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Searching publicly available sources that cannot be monitored by a defender.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Very public by design.  Application of privacy settings is not a panacea.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1050"
         },
         {
             "type": "attack-pattern",
@@ -4540,7 +4661,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Cannot detect access to public sites.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Success is dependent upon the existence of detailed technical specifications for target network posted in blogs/forums.  Poor OPSEC practices result in an adversary gleaning a lot of sensitive information about configurations and/or issues encountered.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1034"
         },
         {
             "type": "attack-pattern",
@@ -4574,7 +4696,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "If a previous incident identified the credentials used by an adversary, defenders can potentially use these credentials to track the adversary through reuse of the same credentials.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can easily create and use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com AWS] accounts, etc.  Many service providers require some form of identifiable information such as a phone number or email address, but there are several avenues to acquire these consistent with the misattributable identity.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1099"
         },
         {
             "type": "attack-pattern",
@@ -4608,7 +4731,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Unless defender is dissecting protocols or performing network signature analysis on any protocol deviations/patterns, this technique is largely undetected.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Some of the hiding techniques require special accesses (network, proximity, physical, etc.) and/or may rely on knowledge of how the defender operates and/or awareness on what visibility the defender has and how it is obtained",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1092"
         },
         {
             "type": "attack-pattern",
@@ -4642,7 +4766,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender likely will not have access to payment information.  Monitoring crypto-currency or barter boards is resource intensive and not fully automatable.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easy to use pre-paid cards or shell accounts to pay for services online.  Crypto currencies and barter systems can avoid use of trace-able bank or credit apparatus.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1093"
         },
         {
             "type": "attack-pattern",
@@ -4680,7 +4805,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "These services are heavily utilized by mainstream mobile app developers.  High volume of communications makes it extremely hard for a defender to distinguish between legitimate and adversary communications.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "These are free services provided by Google and Apple to app developers, and information on how to use them is readily available.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1167"
         },
         {
             "type": "attack-pattern",
@@ -4714,7 +4840,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender will generally not have visibility into their infrastructure.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Building and testing infrastructure and obfuscating it to protect it against intrusions are a standard part of the adversary process in preparing to conduct an operation against a target.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1108"
         },
         {
             "type": "attack-pattern",
@@ -4748,7 +4875,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Difficult, but defender is well aware of technique and attempts to find discrepancies.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has a variety of solutions, ranging in difficulty, that can be employed (e.g., BGP hijacking, tunneling, reflection, multi-hop, etc.)\nAdversary can also use misattributable credentials to obtain servers, build environment, [https://aws.amazon.com Amazon Web Services] (AWS) accounts, etc.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1086"
         },
         {
             "type": "attack-pattern",
@@ -4782,7 +4910,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "While possible to detect given a significant sample size, depending on how the unique identifier is used detection may be difficult as similar patterns may be employed elsewhere (e.g., content hosting providers, account reset URLs).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can easily generate pseudo-random identifiers to associate with a specific target, include the indicator as part of a URL and then identify which target was successful.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1095"
         },
         {
             "type": "attack-pattern",
@@ -4816,7 +4945,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Detecting encryption is easy, decrypting/deobfuscating is hard.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Various solutions exist for the adversary to use.  This technique is commonly used to prevent attribution and evade detection.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1096"
         },
         {
             "type": "attack-pattern",
@@ -4850,7 +4980,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Techniques and signatures are hard to detect. Advanced communications and exfiltration channels are nearly indistinguishable from background noise.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Known approaches include the use of cryptography for communications, rotating drops sites (such as random list of chat fora), and one-time [https://aws.amazon.com/s3/ Simple Storage Service (S3)] buckets, etc.  All require sophisticated knowledge, infrastructure, and funding.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1090"
         },
         {
             "type": "attack-pattern",
@@ -4896,7 +5027,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Starting in iOS 9, Apple has changed the user interface when installing apps to better indicate to users the potential implications of installing apps signed by an enterprise distribution key rather than from Apple's App Store and to make it more difficult for users to inadvertently install these apps. Additionally, enterprise management controls are available that can be imposed to prevent installing these apps. Also, enterprise mobility management / mobile device management (EMM/MDM) systems can be used to scan for the presence of undesired apps on enterprise mobile devices.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Apple requires a DUNS number, corporate documentation, and $299 to obtain an enterprise distribution certificate. Additionally, Apple revokes certificates if they discover malicious use.  However, the enrollment information could be falsified to Apple by an adversary, or an adversary could steal an existing enterprise distribution certificate (and the corresponding private key) from a business that already possesses one.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1169"
         },
         {
             "type": "attack-pattern",
@@ -4938,7 +5070,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Purchase of booster services is not observable; potentially can trace booster service used to origin of sale, yet not before attack is executed. Furthermore, subscription does not automatically mean foul intention.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easily accessible and used to launch DDoS attacks by even novice Internet users, and can be purchased from providers for a nominal fee, some of which even accept credit cards and PayPal payments to do.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1173"
         },
         {
             "type": "attack-pattern",
@@ -4980,7 +5113,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Open access to DNS registration/routing information is inherent in Internet architecture.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proliferation of DNS information makes registration information functionally freely available.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1028"
         },
         {
             "type": "attack-pattern",
@@ -5014,7 +5148,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary may download templates or branding from publicly available presentations that the defender can't monitor.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Some branding information is publicly available when a corporation publishes their briefings to the internet which provides insight into branding information and template materials.  An exhaustive list of templating and branding is likely not available on the internet.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1058"
         },
         {
             "type": "attack-pattern",
@@ -5048,7 +5183,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but detecting an adversary acquiring a payload would require the defender to be monitoring the code repository where the payload is stored. If the adversary re-uses payloads, this allows the defender to create signatures to detect using these known indicators of compromise (e.g., hashes).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Several exploit repositories and tool suites exist for re-use and tailoring.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1123"
         },
         {
             "type": "attack-pattern",
@@ -5082,7 +5218,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Infrastructure is (typically) outside of control/visibility of defender and as such as tools are staged for specific campaigns, it will not be observable to those being attacked.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS providers).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1140"
         },
         {
             "type": "attack-pattern",
@@ -5116,7 +5253,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Post compromise tool development is a standard part of the adversary's protocol in developing the necessary tools required to completely conduct an attack.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1130"
         },
         {
             "type": "attack-pattern",
@@ -5150,7 +5288,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Algorithmically possible to detect COTS service usage or use of non-specific mailing addresses (PO Boxes, drop sites, etc.)",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commercially available or easy to set up and/or register using a disposable email account.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1082"
         },
         {
             "type": "attack-pattern",
@@ -5184,7 +5323,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Outside of highly specific or rare HW, nearly impossible to detect and track.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Ease and availability of current hardware and software, mobile phones (cash and go phones), and additional online technology simplifies adversary process to achieve this technique (and possibly without traceability). The adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1112"
         },
         {
             "type": "attack-pattern",
@@ -5218,7 +5358,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defenders with standard capabilities will traditionally be able to see the first hop but not all the subsequent earlier hops an adversary takes to be able to conduct reconnaissance.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Proxies are readily available for the adversary with both free and cost-based options available.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1081"
         },
         {
             "type": "attack-pattern",
@@ -5257,7 +5398,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "For non-corporate cellular devices not joined to the corporate network, it is not possible to detect an adversary's use of the technique because messages traverse networks outside of the control of the employer. For corporate cellular devices which are joined to the corporate network, monitoring of messages and ability to patch against push attacks is possible, assuming they are fully monitored.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easily executed technique to push an MMS-type message to the target which does not require interaction on the part of the target to be successful.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1150"
         },
         {
             "type": "attack-pattern",
@@ -5291,7 +5433,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1016"
         },
         {
             "type": "attack-pattern",
@@ -5325,7 +5468,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1012"
         },
         {
             "type": "attack-pattern",
@@ -5359,7 +5503,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary will likely use code repositories, but development will be performed on their local systems.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Many successful RATs exist for re-use/tailoring in addition to those an adversary may choose to build from scratch.  The adversary's capabilities, target sensitivity, and needs will likely determine whether a previous RAT is modified for use a new one is built from scratch.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1128"
         },
         {
             "type": "attack-pattern",
@@ -5394,7 +5539,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "On the host end user system, integrity checking (e.g., hash verification, code signing enforcement), application whitelisting, sandboxing, or behavioral-based/heuristic-based systems are most likely to be successful in detecting this technique.  On the source webserver, detecting binary changes is easy to detect if performed.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires the adversary to replace a binary on a website where users will download the binary (e.g., patch, firmware update, software application) as innately trusted.  The additional challenge is the reduced set of vendor-trusted websites that are vulnerable.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1155"
         },
         {
             "type": "attack-pattern",
@@ -5432,7 +5578,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Using standard headers/fingerprints from normal traffic, it is often trivial to identify the SW or HW the target is running, which can be correlated against known CVEs and exploit packages.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1068"
         },
         {
             "type": "attack-pattern",
@@ -5467,7 +5614,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Public source external to the defender's organization.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires in-depth research and potentially other intrusions, requires unbounded amount of work to possibly find a return on investment",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1067"
         },
         {
             "type": "attack-pattern",
@@ -5505,7 +5653,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the test and defender likely has no visibility.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has full control of environment to determine what level of auditing and traces exist on a system after execution.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1135"
         },
         {
             "type": "attack-pattern",
@@ -5560,7 +5709,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Third-party mobile application security analysis services exist that scan for use of these techniques in iOS and Android applications. Additionally, Google specifically calls out the ability to \"identify attacks that require connection to a server and dynamic downloading of code\" in its Android Security 2015 Year in Review report. However, many applications use these techniques as part of their legitimate operation, increasing the difficulty of detecting or preventing malicious use.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Runtime code execution techniques and examples of their use are widely documented on both Apple iOS and Android.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1172"
         },
         {
             "type": "attack-pattern",
@@ -5598,7 +5748,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender can monitor for domains similar to popular sites (possibly leverage [https://www.alexa.com Alexa] top ''N'' lists as starting point).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "SSL certificates are readily available at little to no cost.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1114"
         },
         {
             "type": "attack-pattern",
@@ -5632,7 +5783,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The certificate authority who is hacked cannot easily see they've been compromised, but [https://www.google.com Google] has caught on to this occurring in previous attacks such as DigiNotarDigiNotar2016 and [https://www.verisign.com Verisign].",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "One example of it occurring in the real world is the DigiNotarDigiNotar2016 case.  To be able to do this usually requires sophisticated skills and is traditionally done by a nation state to spy on its citizens.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1115"
         },
         {
             "type": "attack-pattern",
@@ -5666,7 +5818,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Indistinguishable from standard security practices employed by legitimate operators.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary benefits from our own advances, techniques, and software when securing and protecting their own development infrastructure.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1094"
         },
         {
             "type": "attack-pattern",
@@ -5704,7 +5857,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Detection of this technique requires individuals to monitor their domain registrant accounts routinely.  In addition, defenders have had success with blacklisting sites or IP addresses, but an adversary can defeat this by rotating either the subdomains or the IP addresses associated with the campaign.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "To successfully conduct this attack, an adversary usually phishes the individual behind the domain registrant account, logs in with credentials, and creates a large amount of subdomains.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1117"
         },
         {
             "type": "attack-pattern",
@@ -5739,7 +5893,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Many technologies exist to scan content and/or emulate a workstation prior to the target receiving and executing the attachment (detonation chambers) in order to reduce malicious emails and attachments being delivered to the intended target.  However, encryption continues to be a stumbling block.  In addition, there are a variety of commercial technologies available that enable users to screen for phishing messages and which are designed to enhance email security.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending the emails is the simple part, ensuring they make it to the target (e.g., not being filtered) may be challenging.  Over time, an adversary refines their techniques to minimize detection by making their emails seem legitimate in structure and content.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1144"
         },
         {
             "type": "attack-pattern",
@@ -5778,7 +5933,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defenders can implement mechanisms to analyze links and identify levels of concerns.  However, the adversary has the advantage of creating new links or finding ways to obfuscate the link so that common detection lists can not identify it.  Detection of a malicious link could be identified once the file has been downloaded.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending emails is trivial and expected.  The adversary needs to ensure links don't get tampered, removed, or flagged as a previously black-listed site.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1146"
         },
         {
             "type": "attack-pattern",
@@ -5813,7 +5969,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "End user training and awareness is the primary defense for flagging a plain text email so the end user does not respond or take any requested action (e.g., calling a designated number).",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending messages with text only should be accepted in most cases (e.g., not being filtered based on source, content).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1145"
         },
         {
             "type": "attack-pattern",
@@ -5848,7 +6005,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Depending on the specific method of phishing, the detections can vary. For emails, filtering based on DKIP+SPF or header analysis can help detect when the email sender is spoofed. When it comes to following links, network intrusion detection systems (NIDS), firewalls, removing links, exploding shortened links, proxy monitoring, blocking uncategorized sites, and site reputation based filtering can all provide detection opportunities.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending emails is trivial, and, over time, an adversary can refine their technique to minimize detection by making their emails seem legitimate in structure and content.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1174"
         },
         {
             "type": "attack-pattern",
@@ -5886,7 +6044,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1014"
         },
         {
             "type": "attack-pattern",
@@ -5933,7 +6092,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defensive technologies exist to scan web content before delivery to the requested end user.  However, this is not foolproof as some sites encrypt web communications and the adversary constantly moves to sites not previously flagged as malicious thus defeating this defense.  Host-based defenses can also aid in detection/mitigation as well as detection by the web site that got compromised.  The added challenge for a conditional watering hole is the reduced scope and likely reduced ability to detect or be informed.  Determining deltas in content (e.g., differences files type/size/number/hashes) downloaded could also aid in detection.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly executed technique to place an exploit on an often widely used public web site intended for driveby delivery.  The additional challenge is the reduced set of options for web sites to compromise since the set is reduced to those often visited by targets of interest.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1148"
         },
         {
             "type": "attack-pattern",
@@ -5972,7 +6132,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Extremely hard to identify (in the launch phase) what message via social media is hostile versus what is not.  Increased use of encrypted communications increases the difficulty average defender's have in detecting use of this technique.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Sending messages to individuals identified as a target follows normal tradecraft for using social media.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1143"
         },
         {
             "type": "attack-pattern",
@@ -6010,7 +6171,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Normally, defender is unable to detect.  Few agencies and commercial organizations may have unique insights.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Normal aspect of adversary planning lifecycle.  May not be done by all adversaries.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1017"
         },
         {
             "type": "attack-pattern",
@@ -6056,7 +6218,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "The app store operators (e.g., Apple and Google) may detect the attempts, but it would not be observable to those being attacked.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "An adversary can submit code remotely using throwaway accounts, although a registration fee may need to be paid for each new account (e.g., $99 for Apple and $25 for Google Play Store).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1170"
         },
         {
             "type": "attack-pattern",
@@ -6090,7 +6253,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the test and defender likely has no visibility.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary controls or acquires all pieces of infrastructure and can test outside of defender's visibility.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1133"
         },
         {
             "type": "attack-pattern",
@@ -6124,7 +6288,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the test and defender likely has no visibility.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary can simulate most environments (e.g., variable operating systems, patch levels, application versions) with details available from other techniques.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1134"
         },
         {
             "type": "attack-pattern",
@@ -6158,7 +6323,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Adversary controls the testing and can ensure data does not leak with proper OPSEC on testing.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has the ability to procure products and not have reporting return to vendors or can choose to use freely available services",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1136"
         },
         {
             "type": "attack-pattern",
@@ -6196,7 +6362,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defender often install badging, cameras, security guards or other detection techniques for physical security and monitoring.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "Requires a physical presence in the space being entered and increased risk of being detected/detained (e.g., recorded on video camera)",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1137"
         },
         {
             "type": "attack-pattern",
@@ -6230,7 +6397,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "If using a common service like [https://www.virustotal.com VirusTotal], it is possible to detect.  If the adversary uses a hostile, less well-known service, the defender would not be aware.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Easy to automate upload/email of a wide range of data packages.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1069"
         },
         {
             "type": "attack-pattern",
@@ -6264,7 +6432,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Use of sites like [https://www.virustotal.com VirusTotal] to test signature detection often occurs to test detection.  Defender can also look for newly added uploads as a precursor to an adversary's launch of an attack.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Current open source technologies and websites exist to facilitate adversary testing of malware against signatures.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1138"
         },
         {
             "type": "attack-pattern",
@@ -6299,7 +6468,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This varies depending on the amount of monitoring within the environment.  Highly secure environments might have more innate monitoring and catch an adversary doing this more easily.",
             "x_mitre_difficulty_for_adversary": "No",
             "x_mitre_difficulty_for_adversary_explanation": "This likely requires the adversary to have close or insider access to introduce the mechanism of compromise.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1164"
         },
         {
             "type": "attack-pattern",
@@ -6338,7 +6508,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "With the use of malware detonation chambers (e.g., for web or email traffic), this improves detection.  Encryption and other techniques reduces the efficacy of these defenses.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Placing an exploit on a public web site for driveby types of delivery is not impossible.  However, gaining access to a web site with high enough traffic to meet specific objectives could be the challenge.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1149"
         },
         {
             "type": "attack-pattern",
@@ -6373,7 +6544,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Defensive technologies exist to scan web content before delivery to the requested end user.  However, this is not fool proof as some sites encrypt web communications and the adversary constantly moves to sites not previously flagged as malicious thus defeating this defense.  Host-based defenses can also aid in detection/mitigation as well as detection by the web site that got compromised.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Commonly executed technique to place an exploit on an often widely used public web site intended for driveby delivery.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1147"
         },
         {
             "type": "attack-pattern",
@@ -6411,7 +6583,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "Infrastructure is (typically) outside of control/visibility of defender and as such as tools are staged for specific campaigns, it will not be observable to those being attacked.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Adversary has control of the infrastructure and will likely be able to add/remove tools to infrastructure, whether acquired via hacking or standard computer acquisition (e.g., [https://aws.amazon.com AWS], VPS providers).",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1139"
         },
         {
             "type": "attack-pattern",
@@ -6445,7 +6618,8 @@
             "x_mitre_detectable_by_common_defenses_explanation": "This is by design captured in public registration logs.  Various tools and services exist to track/query/monitor domain name registration information.  However, tracking multiple DNS infrastructures will likely require multiple tools/services or more advanced analytics.",
             "x_mitre_difficulty_for_adversary": "Yes",
             "x_mitre_difficulty_for_adversary_explanation": "Requires more planning, but feasible.",
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "PRE-T1104"
         },
         {
             "type": "intrusion-set",

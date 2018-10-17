@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--942695a1-ae17-4af0-91ae-3592c7761725",
+    "id": "bundle--48f13f77-b020-4225-925a-205124e060ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -42,7 +42,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1056"
         },
         {
             "type": "attack-pattern",
@@ -80,7 +81,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1004"
         },
         {
             "type": "attack-pattern",
@@ -119,7 +121,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1038"
         },
         {
             "type": "attack-pattern",
@@ -158,7 +161,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1036"
         },
         {
             "type": "attack-pattern",
@@ -197,7 +201,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1035"
         },
         {
             "type": "attack-pattern",
@@ -243,7 +248,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1016"
         },
         {
             "type": "attack-pattern",
@@ -285,7 +291,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1012"
         },
         {
             "type": "attack-pattern",
@@ -327,7 +334,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1041"
         },
         {
             "type": "attack-pattern",
@@ -364,7 +372,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1019"
         },
         {
             "type": "attack-pattern",
@@ -401,7 +410,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1005"
         },
         {
             "type": "attack-pattern",
@@ -448,7 +458,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1021"
         },
         {
             "type": "attack-pattern",
@@ -495,7 +506,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1030"
         },
         {
             "type": "attack-pattern",
@@ -537,7 +549,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1017"
         },
         {
             "type": "attack-pattern",
@@ -574,7 +587,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1015"
         },
         {
             "type": "attack-pattern",
@@ -611,7 +625,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1039"
         },
         {
             "type": "attack-pattern",
@@ -705,7 +720,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1078"
         },
         {
             "type": "attack-pattern",
@@ -754,7 +770,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1079"
         },
         {
             "type": "attack-pattern",
@@ -791,7 +808,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1022"
         },
         {
             "type": "attack-pattern",
@@ -844,7 +862,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1011"
         },
         {
             "type": "attack-pattern",
@@ -887,7 +906,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1069"
         },
         {
             "type": "attack-pattern",
@@ -945,7 +965,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1010"
         },
         {
             "type": "attack-pattern",
@@ -988,7 +1009,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1059"
         },
         {
             "type": "attack-pattern",
@@ -1036,7 +1058,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1042"
         },
         {
             "type": "attack-pattern",
@@ -1073,7 +1096,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1074"
         },
         {
             "type": "attack-pattern",
@@ -1111,7 +1135,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1031"
         },
         {
             "type": "attack-pattern",
@@ -1149,7 +1174,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1007"
         },
         {
             "type": "attack-pattern",
@@ -1208,7 +1234,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1052"
         },
         {
             "type": "attack-pattern",
@@ -1271,7 +1298,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1053"
         },
         {
             "type": "attack-pattern",
@@ -1332,7 +1360,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1008"
         },
         {
             "type": "attack-pattern",
@@ -1395,7 +1424,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1061"
         },
         {
             "type": "attack-pattern",
@@ -1448,7 +1478,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1080"
         },
         {
             "type": "attack-pattern",
@@ -1480,7 +1511,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1023"
         },
         {
             "type": "attack-pattern",
@@ -1513,7 +1545,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1075"
         },
         {
             "type": "attack-pattern",
@@ -1566,7 +1599,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1081"
         },
         {
             "type": "attack-pattern",
@@ -1624,7 +1658,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1067"
         },
         {
             "type": "attack-pattern",
@@ -1666,7 +1701,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1025"
         },
         {
             "type": "attack-pattern",
@@ -1703,7 +1739,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1024"
         },
         {
             "type": "attack-pattern",
@@ -1742,7 +1779,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1033"
         },
         {
             "type": "attack-pattern",
@@ -1785,7 +1823,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1049"
         },
         {
             "type": "attack-pattern",
@@ -1848,7 +1887,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1064"
         },
         {
             "type": "attack-pattern",
@@ -1890,7 +1930,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1020"
         },
         {
             "type": "attack-pattern",
@@ -1923,7 +1964,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1055"
         },
         {
             "type": "attack-pattern",
@@ -1966,7 +2008,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1066"
         },
         {
             "type": "attack-pattern",
@@ -2005,7 +2048,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1032"
         },
         {
             "type": "attack-pattern",
@@ -2063,7 +2107,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1001"
         },
         {
             "type": "attack-pattern",
@@ -2116,7 +2161,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1003"
         },
         {
             "type": "attack-pattern",
@@ -2168,7 +2214,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1002"
         },
         {
             "type": "attack-pattern",
@@ -2205,7 +2252,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1006"
         },
         {
             "type": "attack-pattern",
@@ -2238,7 +2286,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1026"
         },
         {
             "type": "attack-pattern",
@@ -2281,7 +2330,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1013"
         },
         {
             "type": "attack-pattern",
@@ -2339,7 +2389,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1009"
         },
         {
             "type": "attack-pattern",
@@ -2393,7 +2444,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1073"
         },
         {
             "type": "attack-pattern",
@@ -2436,7 +2488,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1051"
         },
         {
             "type": "attack-pattern",
@@ -2473,7 +2526,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1027"
         },
         {
             "type": "attack-pattern",
@@ -2517,7 +2571,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1071"
         },
         {
             "type": "attack-pattern",
@@ -2566,7 +2621,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1072"
         },
         {
             "type": "attack-pattern",
@@ -2610,7 +2666,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1047"
         },
         {
             "type": "attack-pattern",
@@ -2653,7 +2710,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1070"
         },
         {
             "type": "attack-pattern",
@@ -2701,7 +2759,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1068"
         },
         {
             "type": "attack-pattern",
@@ -2764,7 +2823,8 @@
             "x_mitre_tactic_type": [
                 "Without Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1054"
         },
         {
             "type": "attack-pattern",
@@ -2811,7 +2871,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1040"
         },
         {
             "type": "attack-pattern",
@@ -2865,7 +2926,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1077"
         },
         {
             "type": "attack-pattern",
@@ -2908,7 +2970,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1029"
         },
         {
             "type": "attack-pattern",
@@ -2965,7 +3028,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1018"
         },
         {
             "type": "attack-pattern",
@@ -3027,7 +3091,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1014"
         },
         {
             "type": "attack-pattern",
@@ -3059,7 +3124,8 @@
             "x_mitre_tactic_type": [
                 "Post-Adversary Device Access"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1050"
         },
         {
             "type": "attack-pattern",
@@ -3074,7 +3140,8 @@
                     "url": "https://attack.mitre.org/techniques/T1425",
                     "external_id": "T1425"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1028"
         },
         {
             "type": "attack-pattern",
@@ -3089,7 +3156,8 @@
                     "url": "https://attack.mitre.org/techniques/T1431",
                     "external_id": "T1431"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1034"
         },
         {
             "type": "attack-pattern",
@@ -3104,7 +3172,8 @@
                     "url": "https://attack.mitre.org/techniques/T1434",
                     "external_id": "T1434"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1037"
         },
         {
             "type": "attack-pattern",
@@ -3119,7 +3188,8 @@
                     "url": "https://attack.mitre.org/techniques/T1440",
                     "external_id": "T1440"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1043"
         },
         {
             "type": "attack-pattern",
@@ -3134,7 +3204,8 @@
                     "url": "https://attack.mitre.org/techniques/T1441",
                     "external_id": "T1441"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1044"
         },
         {
             "type": "attack-pattern",
@@ -3149,7 +3220,8 @@
                     "url": "https://attack.mitre.org/techniques/T1442",
                     "external_id": "T1442"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1045"
         },
         {
             "type": "attack-pattern",
@@ -3164,7 +3236,8 @@
                     "url": "https://attack.mitre.org/techniques/T1443",
                     "external_id": "T1443"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1046"
         },
         {
             "type": "attack-pattern",
@@ -3179,7 +3252,8 @@
                     "url": "https://attack.mitre.org/techniques/T1445",
                     "external_id": "T1445"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1048"
         },
         {
             "type": "attack-pattern",
@@ -3194,7 +3268,8 @@
                     "url": "https://attack.mitre.org/techniques/T1454",
                     "external_id": "T1454"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1057"
         },
         {
             "type": "attack-pattern",
@@ -3209,7 +3284,8 @@
                     "url": "https://attack.mitre.org/techniques/T1455",
                     "external_id": "T1455"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1058"
         },
         {
             "type": "attack-pattern",
@@ -3224,7 +3300,8 @@
                     "url": "https://attack.mitre.org/techniques/T1457",
                     "external_id": "T1457"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1060"
         },
         {
             "type": "attack-pattern",
@@ -3239,7 +3316,8 @@
                     "url": "https://attack.mitre.org/techniques/T1459",
                     "external_id": "T1459"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1062"
         },
         {
             "type": "attack-pattern",
@@ -3254,7 +3332,8 @@
                     "url": "https://attack.mitre.org/techniques/T1460",
                     "external_id": "T1460"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1063"
         },
         {
             "type": "attack-pattern",
@@ -3269,7 +3348,8 @@
                     "url": "https://attack.mitre.org/techniques/T1462",
                     "external_id": "T1462"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1065"
         },
         {
             "type": "attack-pattern",
@@ -3284,7 +3364,8 @@
                     "url": "https://attack.mitre.org/techniques/T1473",
                     "external_id": "T1473"
                 }
-            ]
+            ],
+            "x_mitre_old_attack_id": "MOB-T1076"
         },
         {
             "type": "malware",
@@ -3315,7 +3396,8 @@
             "x_mitre_aliases": [
                 "ANDROIDOS_ANSERVER.A"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0026"
         },
         {
             "type": "malware",
@@ -3351,7 +3433,8 @@
             "x_mitre_aliases": [
                 "Adups"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0025"
         },
         {
             "type": "malware",
@@ -3382,7 +3465,8 @@
             "x_mitre_aliases": [
                 "Allwinner"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0035"
         },
         {
             "type": "malware",
@@ -3413,7 +3497,8 @@
             "x_mitre_aliases": [
                 "AndroRAT"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0008"
         },
         {
             "type": "malware",
@@ -3444,7 +3529,8 @@
             "x_mitre_aliases": [
                 "Android Overlay Malware"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0012"
         },
         {
             "type": "malware",
@@ -3475,7 +3561,8 @@
             "x_mitre_aliases": [
                 "Android/Chuli.A"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0020"
         },
         {
             "type": "malware",
@@ -3511,7 +3598,8 @@
             "x_mitre_aliases": [
                 "BrainTest"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0009"
         },
         {
             "type": "malware",
@@ -3542,7 +3630,8 @@
             "x_mitre_aliases": [
                 "Charger"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0039"
         },
         {
             "type": "malware",
@@ -3573,7 +3662,8 @@
             "x_mitre_aliases": [
                 "Dendroid"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0017"
         },
         {
             "type": "malware",
@@ -3604,7 +3694,8 @@
             "x_mitre_aliases": [
                 "DressCode"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0016"
         },
         {
             "type": "malware",
@@ -3640,7 +3731,8 @@
             "x_mitre_aliases": [
                 "DroidJack"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0036"
         },
         {
             "type": "malware",
@@ -3671,7 +3763,8 @@
             "x_mitre_aliases": [
                 "DualToy"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0031"
         },
         {
             "type": "malware",
@@ -3708,7 +3801,8 @@
                 "Gooligan",
                 "Ghost Push"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0006"
         },
         {
             "type": "malware",
@@ -3739,7 +3833,8 @@
             "x_mitre_aliases": [
                 "HummingBad"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0038"
         },
         {
             "type": "malware",
@@ -3770,7 +3865,8 @@
             "x_mitre_aliases": [
                 "HummingWhale"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0037"
         },
         {
             "type": "malware",
@@ -3801,7 +3897,8 @@
             "x_mitre_aliases": [
                 "Judy"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0041"
         },
         {
             "type": "malware",
@@ -3832,7 +3929,8 @@
             "x_mitre_aliases": [
                 "KeyRaider"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0004"
         },
         {
             "type": "malware",
@@ -3863,7 +3961,8 @@
             "x_mitre_aliases": [
                 "Marcher"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0033"
         },
         {
             "type": "malware",
@@ -3894,7 +3993,8 @@
             "x_mitre_aliases": [
                 "MazarBOT"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0019"
         },
         {
             "type": "malware",
@@ -3925,7 +4025,8 @@
             "x_mitre_aliases": [
                 "NotCompatible"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0015"
         },
         {
             "type": "malware",
@@ -3956,7 +4057,8 @@
             "x_mitre_aliases": [
                 "OBAD"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0002"
         },
         {
             "type": "malware",
@@ -3987,7 +4089,8 @@
             "x_mitre_aliases": [
                 "OldBoot"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0001"
         },
         {
             "type": "malware",
@@ -4018,7 +4121,8 @@
             "x_mitre_aliases": [
                 "PJApps"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0007"
         },
         {
             "type": "malware",
@@ -4055,7 +4159,8 @@
                 "Pegasus for Android",
                 "Chrysaor"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0032"
         },
         {
             "type": "malware",
@@ -4091,7 +4196,8 @@
             "x_mitre_aliases": [
                 "Pegasus for iOS"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0005"
         },
         {
             "type": "malware",
@@ -4122,7 +4228,8 @@
             "x_mitre_aliases": [
                 "RCSAndroid"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0011"
         },
         {
             "type": "malware",
@@ -4153,7 +4260,8 @@
             "x_mitre_aliases": [
                 "RedDrop"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0042"
         },
         {
             "type": "malware",
@@ -4184,7 +4292,8 @@
             "x_mitre_aliases": [
                 "RuMMS"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0029"
         },
         {
             "type": "malware",
@@ -4215,7 +4324,8 @@
             "x_mitre_aliases": [
                 "ShiftyBug"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0010"
         },
         {
             "type": "malware",
@@ -4246,7 +4356,8 @@
             "x_mitre_aliases": [
                 "Skygofree"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0043"
         },
         {
             "type": "malware",
@@ -4277,7 +4388,8 @@
             "x_mitre_aliases": [
                 "SpyDealer"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0040"
         },
         {
             "type": "malware",
@@ -4308,7 +4420,8 @@
             "x_mitre_aliases": [
                 "SpyNote RAT"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0021"
         },
         {
             "type": "malware",
@@ -4339,7 +4452,8 @@
             "x_mitre_aliases": [
                 "Stealth Mango"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0044"
         },
         {
             "type": "malware",
@@ -4370,7 +4484,8 @@
             "x_mitre_aliases": [
                 "Tangelo"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0045"
         },
         {
             "type": "malware",
@@ -4401,7 +4516,8 @@
             "x_mitre_aliases": [
                 "Trojan-SMS.AndroidOS.Agent.ao"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0023"
         },
         {
             "type": "malware",
@@ -4432,7 +4548,8 @@
             "x_mitre_aliases": [
                 "Trojan-SMS.AndroidOS.FakeInst.a"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0022"
         },
         {
             "type": "malware",
@@ -4463,7 +4580,8 @@
             "x_mitre_aliases": [
                 "Trojan-SMS.AndroidOS.OpFake.a"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0024"
         },
         {
             "type": "malware",
@@ -4494,7 +4612,8 @@
             "x_mitre_aliases": [
                 "Twitoor"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0018"
         },
         {
             "type": "malware",
@@ -4525,7 +4644,8 @@
             "x_mitre_aliases": [
                 "WireLurker"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0028"
         },
         {
             "type": "malware",
@@ -4556,7 +4676,8 @@
             "x_mitre_aliases": [
                 "X-Agent for Android"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0030"
         },
         {
             "type": "malware",
@@ -4587,7 +4708,8 @@
             "x_mitre_aliases": [
                 "XLoader"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0034"
         },
         {
             "type": "malware",
@@ -4623,7 +4745,8 @@
             "x_mitre_aliases": [
                 "XcodeGhost"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0013"
         },
         {
             "type": "malware",
@@ -4654,7 +4777,8 @@
             "x_mitre_aliases": [
                 "YiSpecter"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0027"
         },
         {
             "type": "malware",
@@ -4685,7 +4809,8 @@
             "x_mitre_aliases": [
                 "ZergHelper"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0003"
         },
         {
             "type": "tool",
@@ -4716,7 +4841,8 @@
             "x_mitre_aliases": [
                 "Xbot"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-S0014"
         },
         {
             "type": "intrusion-set",
@@ -4861,7 +4987,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1013"
         },
         {
             "type": "course-of-action",
@@ -4881,7 +5008,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1005"
         },
         {
             "type": "course-of-action",
@@ -4901,7 +5029,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1002"
         },
         {
             "type": "course-of-action",
@@ -4921,7 +5050,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1007"
         },
         {
             "type": "course-of-action",
@@ -4941,7 +5071,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1010"
         },
         {
             "type": "course-of-action",
@@ -4971,7 +5102,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1009"
         },
         {
             "type": "course-of-action",
@@ -4991,7 +5123,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1012"
         },
         {
             "type": "course-of-action",
@@ -5016,7 +5149,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1014"
         },
         {
             "type": "course-of-action",
@@ -5036,7 +5170,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1003"
         },
         {
             "type": "course-of-action",
@@ -5056,7 +5191,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1001"
         },
         {
             "type": "course-of-action",
@@ -5076,7 +5212,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1004"
         },
         {
             "type": "course-of-action",
@@ -5096,7 +5233,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1008"
         },
         {
             "type": "course-of-action",
@@ -5116,7 +5254,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1006"
         },
         {
             "type": "course-of-action",
@@ -5136,7 +5275,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "x_mitre_version": "1.0"
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-M1011"
         },
         {
             "type": "relationship",
