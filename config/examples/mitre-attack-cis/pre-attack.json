@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--784c4dd4-63ff-40e9-8211-652c3175520e",
+    "id": "bundle--41ebc1c1-ac6c-4cea-8731-ed3c4d5c3b70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -193,7 +193,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Acquire and/or use 3rd party software services",
-            "description": "A wide variety of 3rd party software services  are available (e.g., [https://twitter.com Twitter], [https://www.dropbox.com Dropbox], [https://www.google.com/docs/about/ GoogleDocs]). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. [[Citation: LUCKYCAT2012]] [[Citation: Nemucod Facebook]]",
+            "description": "A wide variety of 3rd party software services  are available (e.g., [Twitter](https://twitter.com), [Dropbox](https://www.dropbox.com), [GoogleDocs](https://www.google.com/docs/about)). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. [[Citation: LUCKYCAT2012]] [[Citation: Nemucod Facebook]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -232,7 +232,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Acquire and/or use 3rd party software services",
-            "description": "A wide variety of 3rd party software services  are available (e.g., [https://twitter.com Twitter], [https://www.dropbox.com Dropbox], [https://www.google.com/docs/about/ GoogleDocs]). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. [[Citation: LOWBALL2015]]",
+            "description": "A wide variety of 3rd party software services  are available (e.g., [Twitter](https://twitter.com), [Dropbox](https://www.dropbox.com), [GoogleDocs](https://www.google.com/docs/about)). Use of these solutions allow an adversary to stage, launch, and execute an attack from infrastructure that does not physically tie back to them and can be rapidly provisioned, modified, and shut down. [[Citation: LOWBALL2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -1318,7 +1318,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Build social network persona",
-            "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([https://www.facebook.com Facebook], [https://www.linkedin.com LinkedIn], [https://twitter.com Twitter], [https://plus.google.com Google+], etc.). [[Citation: NEWSCASTER2014]] [[Citation: BlackHatRobinSage]] [[Citation: RobinSageInterview]]",
+            "description": "For attacks incorporating social engineering the utilization of an on-line persona is important. These personas may be fictitious or impersonate real people. The persona may exist on a single site or across multiple sites ([Facebook](https://www.facebook.com), [LinkedIn](https://www.linkedin.com), [Twitter](https://twitter.com), [Google+](https://plus.google.com), etc.). [[Citation: NEWSCASTER2014]] [[Citation: BlackHatRobinSage]] [[Citation: RobinSageInterview]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2518,7 +2518,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Determine approach/attack vector",
-            "description": "The approach or attack vector outlines the specifics behind how the adversary would like to attack the target.  As additional information is known through the other phases of PRE-ATT&CK, an adversary may update the approach or attack vector. [[Citation: CyberAdversaryBehavior]] [[Citation: WITCHCOVEN2015]] [[Citation: JP3-60]] [[Citation: JP3-12 (R)]] [[Citation: DoD Cyber 2015]]",
+            "description": "The approach or attack vector outlines the specifics behind how the adversary would like to attack the target.  As additional information is known through the other phases of PRE-ATT&CK, an adversary may update the approach or attack vector. [[Citation: CyberAdversaryBehavior]] [[Citation: WITCHCOVEN2015]] [[Citation: JP3-60]] [[Citation: JP3-12R]] [[Citation: DoD Cyber 2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2544,7 +2544,7 @@
                     "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
                 },
                 {
-                    "source_name": "JP3-12 (R)",
+                    "source_name": "JP3-12R",
                     "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
                 },
                 {
@@ -2639,7 +2639,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Determine external network trust dependencies",
-            "description": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). [[Citation: CuckoosEgg]] [[Citation: CuckoosEgg]]Wikipedia [[Citation: KGBComputerMe]]",
+            "description": "Network trusts enable communications between different networks with specific accesses and permissions. Network trusts could include the implementation of domain trusts or the use of virtual private networks (VPNs). [[Citation: CuckoosEgg]] [[Citation: CuckoosEggWikipedia]] [[Citation: KGBComputerMe]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2655,6 +2655,10 @@
                 {
                     "source_name": "CuckoosEgg",
                     "description": "[ Cliff Stoll. (1089). The Cuckoo's Egg. Retrieved August 8, 2017."
+                },
+                {
+                    "source_name": "CuckoosEggWikipedia",
+                    "description": "Wikipedia contributors. (2017, January 18). The Cuckoo's Egg. Retrieved March 5, 2017."
                 },
                 {
                     "source_name": "KGBComputerMe",
@@ -2713,7 +2717,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Determine highest level tactical element",
-            "description": "From a tactical viewpoint, an adversary could potentially have a primary and secondary level target.  The primary target represents the highest level tactical element the adversary wishes to attack.  For example, the corporate network within a corporation or the division within an agency. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12 (R)]] [[Citation: DoD Cyber 2015]]",
+            "description": "From a tactical viewpoint, an adversary could potentially have a primary and secondary level target.  The primary target represents the highest level tactical element the adversary wishes to attack.  For example, the corporate network within a corporation or the division within an agency. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12R]] [[Citation: DoD Cyber 2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2735,7 +2739,7 @@
                     "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
                 },
                 {
-                    "source_name": "JP3-12 (R)",
+                    "source_name": "JP3-12R",
                     "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
                 },
                 {
@@ -2760,7 +2764,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Determine operational element",
-            "description": "If going from strategic down to tactical or vice versa, an  adversary would next consider the operational element.  For example, the specific company within an industry or agency within a government. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12 (R)]] [[Citation: DoD Cyber 2015]]",
+            "description": "If going from strategic down to tactical or vice versa, an  adversary would next consider the operational element.  For example, the specific company within an industry or agency within a government. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12R]] [[Citation: DoD Cyber 2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2782,7 +2786,7 @@
                     "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
                 },
                 {
-                    "source_name": "JP3-12 (R)",
+                    "source_name": "JP3-12R",
                     "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
                 },
                 {
@@ -2842,7 +2846,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Determine secondary level tactical element",
-            "description": "The secondary level tactical element the adversary seeks to attack is the specific network or area of a network that is vulnerable to attack.  Within the corporate network example, the secondary level tactical element might be a SQL server or a domain controller with a known vulnerability. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12 (R)]] [[Citation: DoD Cyber 2015]]",
+            "description": "The secondary level tactical element the adversary seeks to attack is the specific network or area of a network that is vulnerable to attack.  Within the corporate network example, the secondary level tactical element might be a SQL server or a domain controller with a known vulnerability. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12R]] [[Citation: DoD Cyber 2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2864,7 +2868,7 @@
                     "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
                 },
                 {
-                    "source_name": "JP3-12 (R)",
+                    "source_name": "JP3-12R",
                     "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
                 },
                 {
@@ -2889,7 +2893,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Determine strategic target",
-            "description": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12 (R)]] [[Citation: DoD Cyber 2015]]",
+            "description": "An adversary undergoes an iterative target selection process that may begin either broadly and narrow down into specifics (strategic to tactical) or narrowly and expand outward (tactical to strategic).  As part of this process, an adversary may determine a high level target they wish to attack. One example of this may be a particular country, government, or commercial sector. [[Citation: CyberAdversaryBehavior]] [[Citation: JP3-60]] [[Citation: JP3-12R]] [[Citation: DoD Cyber 2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -2911,7 +2915,7 @@
                     "description": "Joint Chiefs of Staff. (2013, January 31). Joint Targeting. Retrieved May 19, 2017."
                 },
                 {
-                    "source_name": "JP3-12 (R)",
+                    "source_name": "JP3-12R",
                     "description": "Joint Chiefs of Staff. (2013, February 5). Cyberspace Operations. Retrieved May 19, 2017."
                 },
                 {
@@ -3817,7 +3821,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Identify business relationships",
-            "description": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [https://www.linkedin.com LinkedIn] or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. [[Citation: RSA-APTRecon]] [[Citation: Scasny2015]]",
+            "description": "Business relationship information includes the associates of a target and may be discovered via social media sites such as [LinkedIn](https://www.linkedin.com) or public press releases announcing new partnerships between organizations or people (such as key hire announcements in industry articles).  This information may be used by an adversary to shape social engineering attempts (exploiting who a target expects to hear from) or to plan for technical actions such as exploiting network trust relationship. [[Citation: RSA-APTRecon]] [[Citation: Scasny2015]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -4456,7 +4460,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Identify web defensive services",
-            "description": "An adversary can attempt to identify web defensive services as [https://www.cloudflare.com/ CloudFlare], [https://github.com/jjxtra/Windows-IP-Ban-Service IPBan], and [https://www.snort.org/ Snort]. This may be done by passively detecting services, like [https://www.cloudflare.com/ CloudFlare] routing, or actively, such as by purposefully tripping security defenses. [[Citation: NMAP WAF NSE]]",
+            "description": "An adversary can attempt to identify web defensive services as [CloudFlare](https://www.cloudflare.com), [IPBan](https://github.com/jjxtra/Windows-IP-Ban-Service), and [Snort](https://www.snort.org). This may be done by passively detecting services, like [CloudFlare](https://www.cloudflare.com) routing, or actively, such as by purposefully tripping security defenses. [[Citation: NMAP WAF NSE]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -4601,7 +4605,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Mine social media",
-            "description": "An adversary may research available open source information about a target commonly found on social media sites such as [https://www.facebook.com Facebook], [https://www.instagram.com Instagram], or [https://www.pinterest.com Pinterest].  Social media is public by design and provides insight into the interests and potentially inherent weaknesses of a target for exploitation by the adversary. [[Citation: RSA-APTRecon]]",
+            "description": "An adversary may research available open source information about a target commonly found on social media sites such as [Facebook](https://www.facebook.com), [Instagram](https://www.instagram.com), or [Pinterest](https://www.pinterest.com).  Social media is public by design and provides insight into the interests and potentially inherent weaknesses of a target for exploitation by the adversary. [[Citation: RSA-APTRecon]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -5368,7 +5372,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Push-notification client-side exploit",
-            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique to push an [https://www.apple.com/ios iOS] or [https://www.android.com Android] MMS-type message to the target which does not require interaction on the part of the target to be successful. [[Citation: BlackHat Stagefright]] [[Citation: WikiStagefright]]",
+            "description": "This technique has been deprecated. Please see ATT&CK's Initial Access and Execution tactics for replacement techniques.\n\nA technique to push an [iOS](https://www.apple.com/ios) or [Android](https://www.android.com) MMS-type message to the target which does not require interaction on the part of the target to be successful. [[Citation: BlackHat Stagefright]] [[Citation: WikiStagefright]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -5719,7 +5723,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "SSL certificate acquisition for domain",
-            "description": "Certificates are designed to instill trust. They  include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Acquiring a certificate for a  domain name similar to one that is expected to be trusted may allow an adversary to trick a user in to trusting the domain (e.g., vvachovia instead of [https://www.wellsfargo.com/about/corporate/wachovia/ Wachovia] -- homoglyphs). [[Citation: SubvertSSL]] [[Citation: PaypalScam]]",
+            "description": "Certificates are designed to instill trust. They  include information about the key, information about its owner's identity, and the digital signature of an entity that has verified the certificate's contents are correct. If the signature is valid, and the person examining the certificate trusts the signer, then they know they can use that key to communicate with its owner. Acquiring a certificate for a  domain name similar to one that is expected to be trusted may allow an adversary to trick a user in to trusting the domain (e.g., vvachovia instead of [Wachovia](https://www.wellsfargo.com/about/corporate/wachovia) -- homoglyphs). [[Citation: SubvertSSL]] [[Citation: PaypalScam]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -6263,7 +6267,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Test malware in various execution environments",
-            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([http://www.ubuntu.com Ubuntu] vs [http://www.apple.com/osx/ OS X]), and versions ([http://windows.microsoft.com Windows] 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. [[Citation: BypassMalwareDefense]]",
+            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([Ubuntu](http://www.ubuntu.com) vs [OS X](http://www.apple.com/osx), and versions ([Windows](http://windows.microsoft.com) 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. [[Citation: BypassMalwareDefense]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
@@ -6806,7 +6810,7 @@
             "created": "2017-05-31 21:31:48.664000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "APT28",
-            "description": "[APT28](https://attack.mitre.org/groups/G0007) is a threat group that has been attributed to Russia's Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. [[Citation: DOJ GRU Indictment Jul 2018]] [[Citation: Ars Technica GRU indictment Jul 2018]] [[Citation: Crowdstrike DNC June 2016]] [[Citation: FireEye APT28]] [[Citation: SecureWorks TG-4127]] [[Citation: FireEye APT28]] January 2017 [[Citation: GRIZZLY STEPPE JAR]] [[Citation: Sofacy DealersChoice]] [[Citation: Palo Alto Sofacy 06-2018]]",
+            "description": "[APT28](https://attack.mitre.org/groups/G0007) is a threat group that has been attributed to Russia's Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. This group reportedly compromised the Hillary Clinton campaign, the Democratic National Committee, and the Democratic Congressional Campaign Committee in 2016 in an attempt to interfere with the U.S. presidential election. [[Citation: DOJ GRU Indictment Jul 2018]] [[Citation: Ars Technica GRU indictment Jul 2018]] [[Citation: Crowdstrike DNC June 2016]] [[Citation: FireEye APT28]] [[Citation: SecureWorks TG-4127]] [[Citation: FireEye APT28 January 2017]] [[Citation: GRIZZLY STEPPE JAR]] [[Citation: Sofacy DealersChoice]] [[Citation: Palo Alto Sofacy 06-2018]]",
             "aliases": [
                 "APT28",
                 "Sednit",
@@ -6867,6 +6871,11 @@
                     "source_name": "FireEye APT28",
                     "description": "FireEye. (2015). APT28: A WINDOW INTO RUSSIA\u2019S CYBER ESPIONAGE OPERATIONS?. Retrieved August 19, 2015.",
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "FireEye APT28 January 2017",
+                    "description": "FireEye iSIGHT Intelligence. (2017, January 11). APT28: At the Center of the Storm. Retrieved January 11, 2017.",
+                    "url": "https://www2.fireeye.com/rs/848-DID-242/images/APT28-Center-of-Storm-2017.pdf"
                 },
                 {
                     "source_name": "Kaspersky Sofacy",
