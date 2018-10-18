@@ -1799,7 +1799,7 @@
             "created": "2017-10-25 14:48:17.886000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Lock User Out of Device",
-            "description": "An adversary may seek to lock the legitimate user out of the device, for example until a ransom is paid.\n\nOn Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to lock the user out of the device.\n\nOn iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been demonstrated that can lock the user out of the device [[Citation: KeyRaider]].",
+            "description": "An adversary may seek to lock the legitimate user out of the device, for example until a ransom is paid.\n\nOn Android versions prior to 7, apps can abuse Device Administrator access to reset the device lock passcode to lock the user out of the device.\n\nOn iOS devices, this technique does not work because mobile device management servers can only remove the screen lock passcode, they cannot set a new passcode. However, on jailbroken devices, malware has been demonstrated that can lock the user out of the device [[Citation: Xiao-KeyRaider]].",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mobile-attack",
@@ -1818,7 +1818,7 @@
                     "external_id": "APP-28"
                 },
                 {
-                    "source_name": "KeyRaider",
+                    "source_name": "Xiao-KeyRaider",
                     "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/"
                 }
@@ -3831,7 +3831,7 @@
             "created": "2017-10-25 14:48:43.242000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Gooligan",
-            "description": "[Gooligan](https://attack.mitre.org/software/S0290) is a malware family that runs privilege escalation exploits on Android devices and then uses its escalated privileges to steal authentication tokens that can be used to access data from many Google applications. [Gooligan](https://attack.mitre.org/software/S0290) has been described as part of the Ghost Push Android malware family. [[Citation: Gooligan]] [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]",
+            "description": "[Gooligan](https://attack.mitre.org/software/S0290) is a malware family that runs privilege escalation exploits on Android devices and then uses its escalated privileges to steal authentication tokens that can be used to access data from many Google applications. [Gooligan](https://attack.mitre.org/software/S0290) has been described as part of the Ghost Push Android malware family. [[Citation: Gooligan Citation]] [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]",
             "labels": [
                 "malware"
             ],
@@ -3843,14 +3843,14 @@
                 },
                 {
                     "source_name": "Gooligan",
-                    "description": "[[Citation: Gooligan]] [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]"
+                    "description": "[[Citation: Gooligan Citation]] [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]"
                 },
                 {
                     "source_name": "Ghost Push",
-                    "description": "[Gooligan](https://attack.mitre.org/software/S0290) has been described as being part of the Ghost Push Android malware family. [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]"
+                    "description": "Gooligan has been described as being part of the Ghost Push Android malware family. [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]"
                 },
                 {
-                    "source_name": "Gooligan",
+                    "source_name": "Gooligan Citation",
                     "description": "Check Point Research Team. (2016, November 30). More Than 1 Million Google Accounts Breached by Gooligan. Retrieved December 12, 2016.",
                     "url": "http://blog.checkpoint.com/2016/11/30/1-million-google-accounts-breached-gooligan/"
                 },
@@ -3990,7 +3990,7 @@
             "created": "2017-10-25 14:48:43.815000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "KeyRaider",
-            "description": "[KeyRaider](https://attack.mitre.org/software/S0288) is malware that steals Apple account credentials and other data from jailbroken iOS devices. It also has ransomware functionality. [[Citation: KeyRaider]]",
+            "description": "[KeyRaider](https://attack.mitre.org/software/S0288) is malware that steals Apple account credentials and other data from jailbroken iOS devices. It also has ransomware functionality. [[Citation: Xiao-KeyRaider]]",
             "labels": [
                 "malware"
             ],
@@ -4002,10 +4002,10 @@
                 },
                 {
                     "source_name": "KeyRaider",
-                    "description": "[[Citation: KeyRaider]]"
+                    "description": "[[Citation: Xiao-KeyRaider]]"
                 },
                 {
-                    "source_name": "KeyRaider",
+                    "source_name": "Xiao-KeyRaider",
                     "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/"
                 }
@@ -4982,7 +4982,7 @@
             "created": "2017-10-25 14:48:44.853000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "ZergHelper",
-            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) is iOS riskware that was unique due to its apparent evasion of Apple's App Store review process. No malicious functionality was identified in the app, but it presents security risks. [[Citation: ZergHelper]]",
+            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) is iOS riskware that was unique due to its apparent evasion of Apple's App Store review process. No malicious functionality was identified in the app, but it presents security risks. [[Citation: Xiao-ZergHelper]]",
             "labels": [
                 "malware"
             ],
@@ -4994,10 +4994,10 @@
                 },
                 {
                     "source_name": "ZergHelper",
-                    "description": "[[Citation: ZergHelper]]"
+                    "description": "[[Citation: Xiao-ZergHelper]]"
                 },
                 {
-                    "source_name": "ZergHelper",
+                    "source_name": "Xiao-ZergHelper",
                     "description": "Claud Xiao. (2016, February 21). Pirated iOS App Store\u2019s Client Successfully Evaded Apple iOS Code Review. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/"
                 }
@@ -8081,13 +8081,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[Gooligan](https://attack.mitre.org/software/S0290) executes Android root exploits. [[Citation: Gooligan]]",
+            "description": "[Gooligan](https://attack.mitre.org/software/S0290) executes Android root exploits. [[Citation: Gooligan Citation]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "Gooligan",
+                    "source_name": "Gooligan Citation",
                     "description": "Check Point Research Team. (2016, November 30). More Than 1 Million Google Accounts Breached by Gooligan. Retrieved December 12, 2016.",
                     "url": "http://blog.checkpoint.com/2016/11/30/1-million-google-accounts-breached-gooligan/"
                 }
@@ -8102,13 +8102,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[Gooligan](https://attack.mitre.org/software/S0290) steals authentication tokens that can be used to access data from multiple Google applications. [[Citation: Gooligan]]",
+            "description": "[Gooligan](https://attack.mitre.org/software/S0290) steals authentication tokens that can be used to access data from multiple Google applications. [[Citation: Gooligan Citation]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "Gooligan",
+                    "source_name": "Gooligan Citation",
                     "description": "Check Point Research Team. (2016, November 30). More Than 1 Million Google Accounts Breached by Gooligan. Retrieved December 12, 2016.",
                     "url": "http://blog.checkpoint.com/2016/11/30/1-million-google-accounts-breached-gooligan/"
                 }
@@ -8123,13 +8123,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[Gooligan](https://attack.mitre.org/software/S0290) can install adware to generate revenue. [[Citation: Gooligan]]",
+            "description": "[Gooligan](https://attack.mitre.org/software/S0290) can install adware to generate revenue. [[Citation: Gooligan Citation]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "Gooligan",
+                    "source_name": "Gooligan Citation",
                     "description": "Check Point Research Team. (2016, November 30). More Than 1 Million Google Accounts Breached by Gooligan. Retrieved December 12, 2016.",
                     "url": "http://blog.checkpoint.com/2016/11/30/1-million-google-accounts-breached-gooligan/"
                 }
@@ -8270,13 +8270,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[KeyRaider](https://attack.mitre.org/software/S0288) has built-in functionality to lock victims out of devices and hold them for ransom. [[Citation: KeyRaider]]",
+            "description": "[KeyRaider](https://attack.mitre.org/software/S0288) has built-in functionality to lock victims out of devices and hold them for ransom. [[Citation: Xiao-KeyRaider]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "KeyRaider",
+                    "source_name": "Xiao-KeyRaider",
                     "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/"
                 }
@@ -8291,13 +8291,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "Most [KeyRaider](https://attack.mitre.org/software/S0288) samples hook SSLRead and SSLWrite functions in the itunesstored process to intercept device communication with the Apple App Store. [[Citation: KeyRaider]]",
+            "description": "Most [KeyRaider](https://attack.mitre.org/software/S0288) samples hook SSLRead and SSLWrite functions in the itunesstored process to intercept device communication with the Apple App Store. [[Citation: Xiao-KeyRaider]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "KeyRaider",
+                    "source_name": "Xiao-KeyRaider",
                     "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/"
                 }
@@ -8312,13 +8312,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17 00:14:20.652000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "Most [KeyRaider](https://attack.mitre.org/software/S0288) samples search to find the Apple account's username, password and device's GUID in data being transferred. [[Citation: KeyRaider]]",
+            "description": "Most [KeyRaider](https://attack.mitre.org/software/S0288) samples search to find the Apple account's username, password and device's GUID in data being transferred. [[Citation: Xiao-KeyRaider]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "KeyRaider",
+                    "source_name": "Xiao-KeyRaider",
                     "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/"
                 }
@@ -10921,13 +10921,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) attempts to extend its capabilities via dynamic updating of its code. [[Citation: ZergHelper]]",
+            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) attempts to extend its capabilities via dynamic updating of its code. [[Citation: Xiao-ZergHelper]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "ZergHelper",
+                    "source_name": "Xiao-ZergHelper",
                     "description": "Claud Xiao. (2016, February 21). Pirated iOS App Store\u2019s Client Successfully Evaded Apple iOS Code Review. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/"
                 }
@@ -10942,13 +10942,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17 00:14:20.652000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) apparently evaded Apple's app review process by performing different behaviors for users from different physical locations (e.g. performing differently for users in China versus outside of China), which could have bypassed the review process depending on the country from which it was performed. [[Citation: ZergHelper]]",
+            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) apparently evaded Apple's app review process by performing different behaviors for users from different physical locations (e.g. performing differently for users in China versus outside of China), which could have bypassed the review process depending on the country from which it was performed. [[Citation: Xiao-ZergHelper]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "ZergHelper",
+                    "source_name": "Xiao-ZergHelper",
                     "description": "Claud Xiao. (2016, February 21). Pirated iOS App Store\u2019s Client Successfully Evaded Apple iOS Code Review. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/"
                 }
@@ -10963,13 +10963,13 @@
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "created": "2018-10-17 00:14:20.652000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
-            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) abuses enterprises certificate and personal certificates to sign and distribute apps. [[Citation: ZergHelper]]",
+            "description": "[ZergHelper](https://attack.mitre.org/software/S0287) abuses enterprises certificate and personal certificates to sign and distribute apps. [[Citation: Xiao-ZergHelper]]",
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
             "external_references": [
                 {
-                    "source_name": "ZergHelper",
+                    "source_name": "Xiao-ZergHelper",
                     "description": "Claud Xiao. (2016, February 21). Pirated iOS App Store\u2019s Client Successfully Evaded Apple iOS Code Review. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/"
                 }
