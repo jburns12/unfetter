@@ -3395,6 +3395,10 @@
                     "external_id": "S0310"
                 },
                 {
+                    "source_name": "ANDROIDOS_ANSERVER.A",
+                    "description": "[[Citation: TrendMicro-Anserver]]"
+                },
+                {
                     "source_name": "TrendMicro-Anserver",
                     "description": "Karl Dominguez. (2011, October 2). Android Malware Uses Blog Posts as C&C. Retrieved February 6, 2017.",
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/android-malware-uses-blog-posts-as-cc/"
@@ -3425,6 +3429,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0309",
                     "external_id": "S0309"
+                },
+                {
+                    "source_name": "Adups",
+                    "description": "[[Citation: NYTimes-BackDoor]] [[Citation: BankInfoSecurity-BackDoor]]"
                 },
                 {
                     "source_name": "NYTimes-BackDoor",
@@ -3464,6 +3472,10 @@
                     "external_id": "S0319"
                 },
                 {
+                    "source_name": "Allwinner",
+                    "description": "[[Citation: HackerNews-Allwinner]]"
+                },
+                {
                     "source_name": "HackerNews-Allwinner",
                     "description": "Mohit Kumar. (2016, May 11). Kernel Backdoor found in Gadgets Powered by Popular Chinese ARM Maker. Retrieved September 18, 2018.",
                     "url": "https://thehackernews.com/2016/05/android-kernal-exploit.html"
@@ -3494,6 +3506,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0292",
                     "external_id": "S0292"
+                },
+                {
+                    "source_name": "AndroRAT",
+                    "description": "[[Citation: Lookout-EnterpriseApps]]"
                 },
                 {
                     "source_name": "Lookout-EnterpriseApps",
@@ -3528,6 +3544,10 @@
                     "external_id": "S0296"
                 },
                 {
+                    "source_name": "Android Overlay Malware",
+                    "description": "[[Citation: FireEye-AndroidOverlay]]"
+                },
+                {
                     "source_name": "FireEye-AndroidOverlay",
                     "description": "Wu Zhou et al. (2016, June 28). THE LATEST ANDROID OVERLAY MALWARE SPREADING VIA SMS PHISHING IN EUROPE. Retrieved December 21, 2016.",
                     "url": "https://www.fireeye.com/blog/threat-research/2016/06/latest-android-overlay-malware-spreading-in-europe.html"
@@ -3560,6 +3580,10 @@
                     "external_id": "S0304"
                 },
                 {
+                    "source_name": "Android/Chuli.A",
+                    "description": "[[Citation: Kaspersky-WUC]]"
+                },
+                {
                     "source_name": "Kaspersky-WUC",
                     "description": "Costin Raiu, Denis Maslennikov, Kurt Baumgartner. (2013, March 26). Android Trojan Found in Targeted Attack. Retrieved December 23, 2016.",
                     "url": "https://securelist.com/android-trojan-found-in-targeted-attack-58/35552/"
@@ -3590,6 +3614,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0293",
                     "external_id": "S0293"
+                },
+                {
+                    "source_name": "BrainTest",
+                    "description": "[[Citation: CheckPoint-BrainTest]] [[Citation: Lookout-BrainTest]]"
                 },
                 {
                     "source_name": "CheckPoint-BrainTest",
@@ -3629,6 +3657,10 @@
                     "external_id": "S0323"
                 },
                 {
+                    "source_name": "Charger",
+                    "description": "[[Citation: CheckPoint-Charger]]"
+                },
+                {
                     "source_name": "CheckPoint-Charger",
                     "description": "Oren Koriat and Andrey Polkovnichenko. (2017, January 24). Charger Malware Calls and Raises the Risk on Google Play. Retrieved January 24, 2017.",
                     "url": "http://blog.checkpoint.com/2017/01/24/charger-malware/"
@@ -3659,6 +3691,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0301",
                     "external_id": "S0301"
+                },
+                {
+                    "source_name": "Dendroid",
+                    "description": "[[Citation: Lookout-Dendroid]]"
                 },
                 {
                     "source_name": "Lookout-Dendroid",
@@ -3693,6 +3729,10 @@
                     "external_id": "S0300"
                 },
                 {
+                    "source_name": "DressCode",
+                    "description": "[[Citation: TrendMicro-DressCode]]"
+                },
+                {
                     "source_name": "TrendMicro-DressCode",
                     "description": "Echo Duan. (2016, September 29). DressCode and its Potential Impact for Enterprises. Retrieved December 22, 2016.",
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/dresscode-potential-impact-enterprises/"
@@ -3723,6 +3763,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0320",
                     "external_id": "S0320"
+                },
+                {
+                    "source_name": "DroidJack",
+                    "description": "[[Citation: Zscaler-SuperMarioRun]] [[Citation: Proofpoint-Droidjack]]"
                 },
                 {
                     "source_name": "Zscaler-SuperMarioRun",
@@ -3762,6 +3806,10 @@
                     "external_id": "S0315"
                 },
                 {
+                    "source_name": "DualToy",
+                    "description": "[[Citation: PaloAlto-DualToy]]"
+                },
+                {
                     "source_name": "PaloAlto-DualToy",
                     "description": "Claud Xiao. (2016, September 13). DualToy: New Windows Trojan Sideloads Risky Apps to Android and iOS Devices. Retrieved January 24, 2017.",
                     "url": "https://researchcenter.paloaltonetworks.com/2016/09/dualtoy-new-windows-trojan-sideloads-risky-apps-to-android-and-ios-devices/"
@@ -3792,6 +3840,14 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0290",
                     "external_id": "S0290"
+                },
+                {
+                    "source_name": "Gooligan",
+                    "description": "[[Citation: Gooligan]] [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]"
+                },
+                {
+                    "source_name": "Ghost Push",
+                    "description": "[Gooligan](https://attack.mitre.org/software/S0290) has been described as being part of the Ghost Push Android malware family. [[Citation: Ludwig-GhostPush]] [[Citation: Lookout-Gooligan]]"
                 },
                 {
                     "source_name": "Gooligan",
@@ -3837,6 +3893,10 @@
                     "external_id": "S0322"
                 },
                 {
+                    "source_name": "HummingBad",
+                    "description": "[[Citation: ArsTechnica-HummingBad]]"
+                },
+                {
                     "source_name": "ArsTechnica-HummingBad",
                     "description": "Dan Goodin. (2016, July 7). 10 million Android phones infected by all-powerful auto-rooting apps. Retrieved January 24, 2017.",
                     "url": "http://arstechnica.com/security/2016/07/virulent-auto-rooting-malware-takes-control-of-10-million-android-devices/"
@@ -3869,6 +3929,10 @@
                     "external_id": "S0321"
                 },
                 {
+                    "source_name": "HummingWhale",
+                    "description": "[[Citation: ArsTechnica-HummingWhale]]"
+                },
+                {
                     "source_name": "ArsTechnica-HummingWhale",
                     "description": "Dan Goodin. (2017, January 23). Virulent Android malware returns, gets >2 million downloads on Google Play. Retrieved January 24, 2017.",
                     "url": "http://arstechnica.com/security/2017/01/virulent-android-malware-returns-gets-2-million-downloads-on-google-play/"
@@ -3899,6 +3963,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0325",
                     "external_id": "S0325"
+                },
+                {
+                    "source_name": "Judy",
+                    "description": "[[Citation: CheckPoint-Judy]]"
                 },
                 {
                     "source_name": "CheckPoint-Judy",
@@ -3934,6 +4002,10 @@
                 },
                 {
                     "source_name": "KeyRaider",
+                    "description": "[[Citation: KeyRaider]]"
+                },
+                {
+                    "source_name": "KeyRaider",
                     "description": "Claud Xiao. (2015, August 30). KeyRaider: iOS Malware Steals Over 225,000 Apple Accounts to Create Free App Utopia. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/08/keyraider-ios-malware-steals-over-225000-apple-accounts-to-create-free-app-utopia/"
                 }
@@ -3963,6 +4035,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0317",
                     "external_id": "S0317"
+                },
+                {
+                    "source_name": "Marcher",
+                    "description": "[[Citation: Proofpoint-Marcher]]"
                 },
                 {
                     "source_name": "Proofpoint-Marcher",
@@ -3997,6 +4073,10 @@
                     "external_id": "S0303"
                 },
                 {
+                    "source_name": "MazarBOT",
+                    "description": "[[Citation: Tripwire-MazarBOT]]"
+                },
+                {
                     "source_name": "Tripwire-MazarBOT",
                     "description": "Graham Cluley. (2016, February 16). Android users warned of malware attack spreading via SMS. Retrieved December 23, 2016.",
                     "url": "https://www.tripwire.com/state-of-security/security-data-protection/android-malware-sms/"
@@ -4027,6 +4107,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0299",
                     "external_id": "S0299"
+                },
+                {
+                    "source_name": "NotCompatible",
+                    "description": "[[Citation: Lookout-NotCompatible]]"
                 },
                 {
                     "source_name": "Lookout-NotCompatible",
@@ -4061,6 +4145,10 @@
                     "external_id": "S0286"
                 },
                 {
+                    "source_name": "OBAD",
+                    "description": "[[Citation: TrendMicro-Obad]]"
+                },
+                {
                     "source_name": "TrendMicro-Obad",
                     "description": "Veo Zhang. (2013, June 13). Cybercriminals Improve Android Malware Stealth Routines with OBAD. Retrieved December 9, 2016.",
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/cybercriminals-improve-android-malware-stealth-routines-with-obad/"
@@ -4091,6 +4179,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0285",
                     "external_id": "S0285"
+                },
+                {
+                    "source_name": "OldBoot",
+                    "description": "[[Citation: HackerNews-OldBoot]]"
                 },
                 {
                     "source_name": "HackerNews-OldBoot",
@@ -4125,6 +4217,10 @@
                     "external_id": "S0291"
                 },
                 {
+                    "source_name": "PJApps",
+                    "description": "[[Citation: Lookout-EnterpriseApps]]"
+                },
+                {
                     "source_name": "Lookout-EnterpriseApps",
                     "description": "Lookout. (2016, May 25). 5 active mobile threats spoofing enterprise apps. Retrieved December 19, 2016.",
                     "url": "https://blog.lookout.com/blog/2016/05/25/spoofed-apps/"
@@ -4155,6 +4251,14 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0316",
                     "external_id": "S0316"
+                },
+                {
+                    "source_name": "Pegasus for Android",
+                    "description": "[[Citation: Lookout-PegasusAndroid]] [[Citation: Google-Chrysaor]]"
+                },
+                {
+                    "source_name": "Chrysaor",
+                    "description": "[[Citation: Lookout-PegasusAndroid]] [[Citation: Google-Chrysaor]]"
                 },
                 {
                     "source_name": "Lookout-PegasusAndroid",
@@ -4195,6 +4299,10 @@
                     "external_id": "S0289"
                 },
                 {
+                    "source_name": "Pegasus for iOS",
+                    "description": "[[Citation: Lookout-Pegasus]] [[Citation: PegasusCitizenLab]]"
+                },
+                {
                     "source_name": "Lookout-Pegasus",
                     "description": "Lookout. (2016). Technical Analysis of Pegasus Spyware. Retrieved December 12, 2016.",
                     "url": "https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf"
@@ -4232,6 +4340,10 @@
                     "external_id": "S0295"
                 },
                 {
+                    "source_name": "RCSAndroid",
+                    "description": "[[Citation: TrendMicro-RCSAndroid]]"
+                },
+                {
                     "source_name": "TrendMicro-RCSAndroid",
                     "description": "Veo Zhang. (2015, July 21). Hacking Team RCSAndroid Spying Tool Listens to Calls; Roots Devices to Get In. Retrieved December 22, 2016.",
                     "url": "http://blog.trendmicro.com/trendlabs-security-intelligence/hacking-team-rcsandroid-spying-tool-listens-to-calls-roots-devices-to-get-in/"
@@ -4262,6 +4374,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0326",
                     "external_id": "S0326"
+                },
+                {
+                    "source_name": "RedDrop",
+                    "description": "[[Citation: Wandera-RedDrop]]"
                 },
                 {
                     "source_name": "Wandera-RedDrop",
@@ -4296,6 +4412,10 @@
                     "external_id": "S0313"
                 },
                 {
+                    "source_name": "RuMMS",
+                    "description": "[[Citation: FireEye-RuMMS]]"
+                },
+                {
                     "source_name": "FireEye-RuMMS",
                     "description": "Wu Zhou, Deyu Hu, Jimmy Su, Yong Kang. (2016, April 26). RUMMS: THE LATEST FAMILY OF ANDROID MALWARE ATTACKING USERS IN RUSSIA VIA SMS PHISHING. Retrieved February 6, 2017.",
                     "url": "https://www.fireeye.com/blog/threat-research/2016/04/rumms-android-malware.html"
@@ -4326,6 +4446,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0294",
                     "external_id": "S0294"
+                },
+                {
+                    "source_name": "ShiftyBug",
+                    "description": "[[Citation: Lookout-Adware]]"
                 },
                 {
                     "source_name": "Lookout-Adware",
@@ -4360,6 +4484,10 @@
                     "external_id": "S0327"
                 },
                 {
+                    "source_name": "Skygofree",
+                    "description": "[[Citation: Kaspersky-Skygofree]]"
+                },
+                {
                     "source_name": "Kaspersky-Skygofree",
                     "description": "Nikita Buchka and Alexey Firsh. (2018, January 16). Skygofree: Following in the footsteps of HackingTeam. Retrieved September 24, 2018.",
                     "url": "https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/"
@@ -4390,6 +4518,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0324",
                     "external_id": "S0324"
+                },
+                {
+                    "source_name": "SpyDealer",
+                    "description": "[[Citation: PaloAlto-SpyDealer]]"
                 },
                 {
                     "source_name": "PaloAlto-SpyDealer",
@@ -4424,6 +4556,10 @@
                     "external_id": "S0305"
                 },
                 {
+                    "source_name": "SpyNote RAT",
+                    "description": "[[Citation: Zscaler-SpyNote]]"
+                },
+                {
                     "source_name": "Zscaler-SpyNote",
                     "description": "Shivang Desai. (2017, January 23). SpyNote RAT posing as Netflix app. Retrieved January 26, 2017.",
                     "url": "https://www.zscaler.com/blogs/research/spynote-rat-posing-netflix-app"
@@ -4454,6 +4590,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0328",
                     "external_id": "S0328"
+                },
+                {
+                    "source_name": "Stealth Mango",
+                    "description": "[[Citation: Lookout-StealthMango]]"
                 },
                 {
                     "source_name": "Lookout-StealthMango",
@@ -4488,6 +4628,10 @@
                     "external_id": "S0329"
                 },
                 {
+                    "source_name": "Tangelo",
+                    "description": "[[Citation: Lookout-StealthMango]]"
+                },
+                {
                     "source_name": "Lookout-StealthMango",
                     "description": "Lookout. (n.d.). Stealth Mango & Tangelo. Retrieved September 27, 2018.",
                     "url": "https://info.lookout.com/rs/051-ESQ-475/images/lookout-stealth-mango-srr-us.pdf"
@@ -4518,6 +4662,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0307",
                     "external_id": "S0307"
+                },
+                {
+                    "source_name": "Trojan-SMS.AndroidOS.Agent.ao",
+                    "description": "[[Citation: Kaspersky-MobileMalware]]"
                 },
                 {
                     "source_name": "Kaspersky-MobileMalware",
@@ -4552,6 +4700,10 @@
                     "external_id": "S0306"
                 },
                 {
+                    "source_name": "Trojan-SMS.AndroidOS.FakeInst.a",
+                    "description": "[[Citation: Kaspersky-MobileMalware]]"
+                },
+                {
                     "source_name": "Kaspersky-MobileMalware",
                     "description": "Roman Unuchek and Victor Chebyshev. (2014, February 24). Mobile Malware Evolution: 2013. Retrieved December 22, 2016.",
                     "url": "https://securelist.com/mobile-malware-evolution-2013/58335/"
@@ -4582,6 +4734,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0308",
                     "external_id": "S0308"
+                },
+                {
+                    "source_name": "Trojan-SMS.AndroidOS.OpFake.a",
+                    "description": "[[Citation: Kaspersky-MobileMalware]]"
                 },
                 {
                     "source_name": "Kaspersky-MobileMalware",
@@ -4616,6 +4772,10 @@
                     "external_id": "S0302"
                 },
                 {
+                    "source_name": "Twitoor",
+                    "description": "[[Citation: ESET-Twitoor]]"
+                },
+                {
                     "source_name": "ESET-Twitoor",
                     "description": "ESET. (2016, August 24). First Twitter-controlled Android botnet discovered. Retrieved December 22, 2016.",
                     "url": "http://www.welivesecurity.com/2016/08/24/first-twitter-controlled-android-botnet-discovered/"
@@ -4646,6 +4806,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0312",
                     "external_id": "S0312"
+                },
+                {
+                    "source_name": "WireLurker",
+                    "description": "[[Citation: PaloAlto-WireLurker]]"
                 },
                 {
                     "source_name": "PaloAlto-WireLurker",
@@ -4680,6 +4844,10 @@
                     "external_id": "S0314"
                 },
                 {
+                    "source_name": "X-Agent for Android",
+                    "description": "[[Citation: CrowdStrike-Android]]"
+                },
+                {
                     "source_name": "CrowdStrike-Android",
                     "description": "CrowdStrike Global Intelligence Team. (2016). Use of Fancy Bear Android Malware in Tracking of Ukrainian FIeld Artillery Units. Retrieved February 6, 2017.",
                     "url": "https://www.crowdstrike.com/wp-content/brochures/FancyBearTracksUkrainianArtillery.pdf"
@@ -4712,6 +4880,10 @@
                     "external_id": "S0318"
                 },
                 {
+                    "source_name": "XLoader",
+                    "description": "[[Citation: TrendMicro-XLoader]]"
+                },
+                {
                     "source_name": "TrendMicro-XLoader",
                     "description": "Lorin Wu. (2018, April 19). XLoader Android Spyware and Banking Trojan Distributed via DNS Spoofing. Retrieved July 6, 2018.",
                     "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing/"
@@ -4742,6 +4914,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0297",
                     "external_id": "S0297"
+                },
+                {
+                    "source_name": "XcodeGhost",
+                    "description": "[[Citation: PaloAlto-XcodeGhost1]] [[Citation: PaloAlto-XcodeGhost]]"
                 },
                 {
                     "source_name": "PaloAlto-XcodeGhost1",
@@ -4781,6 +4957,10 @@
                     "external_id": "S0311"
                 },
                 {
+                    "source_name": "YiSpecter",
+                    "description": "[[Citation: PaloAlto-YiSpecter]]"
+                },
+                {
                     "source_name": "PaloAlto-YiSpecter",
                     "description": "Claud Xiao. (2015, October 4). YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs. Retrieved January 20, 2017.",
                     "url": "https://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
@@ -4814,6 +4994,10 @@
                 },
                 {
                     "source_name": "ZergHelper",
+                    "description": "[[Citation: ZergHelper]]"
+                },
+                {
+                    "source_name": "ZergHelper",
                     "description": "Claud Xiao. (2016, February 21). Pirated iOS App Store\u2019s Client Successfully Evaded Apple iOS Code Review. Retrieved December 12, 2016.",
                     "url": "http://researchcenter.paloaltonetworks.com/2016/02/pirated-ios-app-stores-client-successfully-evaded-apple-ios-code-review/"
                 }
@@ -4843,6 +5027,10 @@
                     "source_name": "mitre-mobile-attack",
                     "url": "https://attack.mitre.org/software/S0298",
                     "external_id": "S0298"
+                },
+                {
+                    "source_name": "Xbot",
+                    "description": "[[Citation: PaloAlto-Xbot]]"
                 },
                 {
                     "source_name": "PaloAlto-Xbot",
