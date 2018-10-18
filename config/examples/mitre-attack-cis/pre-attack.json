@@ -6267,7 +6267,7 @@
             "created": "2017-12-14 16:46:06.044000+00:00",
             "modified": "2018-10-17 00:14:20.652000+00:00",
             "name": "Test malware in various execution environments",
-            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([Ubuntu](http://www.ubuntu.com) vs [OS X](http://www.apple.com/osx), and versions ([Windows](http://windows.microsoft.com) 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. [[Citation: BypassMalwareDefense]]",
+            "description": "Malware may perform differently on different platforms (computer vs handheld) and different operating systems ([Ubuntu](http://www.ubuntu.com) vs [OS X](http://www.apple.com/osx)), and versions ([Windows](http://windows.microsoft.com) 7 vs 10) so malicious actors will test their malware in the environment(s) where they most expect it to be executed. [[Citation: BypassMalwareDefense]]",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-pre-attack",
