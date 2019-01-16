@@ -1,53 +1,39 @@
 [
     {
-        "_id": "d9732cfc-166e-41a0-af79-d37e7abc69b3",
-        "configKey": "x_mitre_platforms",
-        "configValue": [
-            "Linux",
-            "MacOS",
-            "OS X",
-            "Windows 10",
-            "Windows 7",
-            "Windows 8",
-            "Windows 8.1",
-            "Windows Server 2003",
-            "Windows Server 2003 R2",
-            "Windows Server 2008",
-            "Windows Server 2008 R2",
-            "Windows Server 2012",
-            "Windows Server 2012 R2",
-            "Windows Vista",
-            "Windows XP"
-        ],
-        "configGroups": [
-            "stixConfig"
-        ]
-    },
-    {
         "_id": "453c02d2-9204-467e-bc59-aa86a99e848e",
         "configKey": "x_mitre_data_sources",
         "configValue": [
             "Access Tokens",
+            "Asset Management",
             "API monitoring",
             "Anti-virus",
+            "Application logs",
+            "Application Logs",
             "Authentication logs",
             "BIOS",
             "Binary file metadata",
             "Browser extensions",
+            "Component Firmware",
             "DLL monitoring",
             "Data loss prevention",
+            "Detonation chamber",
             "Digital Certificate Logs",
+            "Disk Forensics",
+            "DNS records",
             "EFI",
+            "Email gateway",
             "Environment variable",
             "File monitoring",
             "Host network interface",
             "Kernel drivers",
             "Loaded DLLs",
             "MBR",
+            "Mail server",
             "Malware reverse engineering",
-            "Named pipes",
+            "Named Pipes",
             "Netflow/Enclave netflow",
             "Network device logs",
+            "Network intrusion detection system",
             "Network protocol analysis",
             "Packet capture",
             "PowerShell logs",
@@ -55,7 +41,6 @@
             "Process command-line parameters",
             "Process monitoring",
             "Process use of network",
-            "Process whitelisting",
             "SSL/TLS inspection",
             "Sensor health and status",
             "Services",
@@ -63,29 +48,100 @@
             "Third-party application logs",
             "User interface",
             "VBR",
+            "Web application firewall logs",
+            "Web logs",
+            "Web proxy",
             "WMI Objects",
             "Windows Error Reporting",
             "Windows Registry",
             "Windows event logs"
+          ],
+        "configGroups": [
+            "stixConfig"
+        ]
+    },
+    {
+        "_id": "89dab24a-6773-92a3-9b3d-9dba3ef6ee7a",
+        "configKey": "x_mitre_platforms",
+        "configValue": {
+            "enterprise": [
+              "Linux",
+              "macOS",
+              "Windows"
+            ],
+            "mobile": [
+              "Android",
+              "iOS"
+            ]
+        },
+        "configGroups": [
+            "stixConfig"
+        ]
+    },
+    {
+        "_id": "f3da261f-d905-40c4-acb3-30cd2b701b27",
+        "configKey": "mtc_categories",
+        "configValue": [
+            {
+                "category": "APP",
+                "path": "application-threats"
+            },
+            {
+                "category": "AUT",
+                "path": "authentication-threats"
+            },
+            {
+                "category": "CEL",
+                "path": "cellular-threats"
+            },
+            {
+                "category": "ECO",
+                "path": "ecosystem-threats"
+            },
+            {
+                "category": "EMM",
+                "path": "emm-threats"
+            },
+            {
+                "category": "GPS",
+                "path": "gps-threats"
+            },
+            {
+                "category": "LPN",
+                "path": "lan-pan-threats"
+            },
+            {
+                "category": "PAY",
+                "path": "payment-threats"
+            },
+            {
+                "category": "PHY",
+                "path": "physical-threats"
+            },
+            {
+                "category": "PRI",
+                "path": "privacy-threats"
+            },
+            {
+                "category": "STA",
+                "path": "stack-threats"
+            },
+            {
+                "category": "SPC",
+                "path": "supply-chain-threats"
+            }
         ],
         "configGroups": [
             "stixConfig"
         ]
     },
     {
-        "_id": "87dbc24a-6773-92a3-9b3d-9dba3ef6ee7a",
-        "configKey": "tactics",
+        "_id": "00f899f1-cc15-4991-9d58-c1123594e4e7",
+        "configKey": "x_mitre_tactic_type",
         "configValue": [
-            "collection",
-            "command-and-control",
-            "credential-access",
-            "defense-evasion",
-            "discovery",
-            "execution",
-            "exfiltration",
-            "lateral-movement",
-            "persistence",
-            "privilege-escalation"
+            "Post-Adversary Device Access",
+            "Pre-Adversary Device Access",
+            "Without Adversary Device Access"
         ],
         "configGroups": [
             "stixConfig"
