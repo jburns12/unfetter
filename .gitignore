@@ -1,6 +1,9 @@
 certs/
 .idea/
 *.iml
+config/nginx/conf.d.angular/*
+config/nginx/conf.d/*
+docker-compose.development.yml
 
 # keep the data/db folder but not the files
 data/db/*
